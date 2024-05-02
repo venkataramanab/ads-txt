@@ -39,9 +39,9 @@ class AdsDotTxtScraper:
         if a_url not in self.store.keys():
             self.store[a_url] = self.content_extractor.request_page(a_url)
 
-        if not self.store.get(a_url):
-            print(f"Retrying...  {a_url}  < 2 seconds >")
-            time.sleep(2)
-            self.store[a_url] = self.content_extractor.request_page(a_url)
+        # if not self.store.get(a_url):
+        #     print(f"Retrying...  {a_url}  < 2 seconds >")
+        #     time.sleep(2)
+        #     self.store[a_url] = self.content_extractor.request_page(a_url)
 
         return t_url, app_name, self.store[a_url]

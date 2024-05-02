@@ -18,4 +18,4 @@ def get_default_cols():
         return data["default_cols"]
 
 
-default_request_timeouts = {"connect": 2, "read": 8}
+default_request_timeouts = {"connect": 1, "read": 2}

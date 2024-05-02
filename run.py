@@ -15,8 +15,8 @@ FAILED_FILE = f'results/failed_{dt.now().strftime("%d_%m_%y")}.txt'
 GSHEET_FILE = 'ads_spec.xlsx'
 GSHEET_ID = os.environ.get('GSHEET_ID')
 
-FAILED_RETRY_SECS = 5
-FAILED_RETRY_ATTEMPTS = 1
+FAILED_RETRY_SECS = 1
+FAILED_RETRY_ATTEMPTS = 0
 
 
 def download_gsheet():
@@ -65,7 +65,7 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
 
     if not (status and _check):
         if trial:
-            print(f"Retrying...  {line}  < 5 seconds >")
+            print(f"Retrying...  {line}  < {FAILED_RETRY_SECS} seconds >")
             time.sleep(FAILED_RETRY_SECS)
             return preprocess(_scraper, line, results, failed, fill_ups, trial - 1)
 
