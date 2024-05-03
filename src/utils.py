@@ -20,8 +20,8 @@ def get_url_category(url):
     elif regex_checker(url, appstore_regex):
         return "appstore"
 
-    if not url.startswith("http"):
-        url = "http://" + url
+    # if not url.startswith("http"):
+    #     url = "http://" + url
 
     return regex_checker(url, web_regex) and (url, url + "/ads.txt", "-")
 

@@ -60,7 +60,8 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
         # TODO: App store bundle ids whose url has a country code other than "us" won't be available for scraping. Need to pass the full url into the scraper.
         _scraped = _scraper.scrape(line)
         _check = _scraped[2]
-    except:
+    except Exception as e:
+        print(e)
         status = False
 
     if not (status and _check):
@@ -68,9 +69,14 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
             print(f"Retrying...  {line}  < {FAILED_RETRY_SECS} seconds >")
             time.sleep(FAILED_RETRY_SECS)
             return preprocess(_scraper, line, results, failed, fill_ups, trial - 1)
-
-        results.append({"TARGET": line, "APP_NAME": "-", "URL": "-", "ADS.TXT": "Failed", "IS HTTPS?": "-", **fill_ups,
-                        "REMARKS": "Unable to scrape data."})
+        if _scraped:
+            results.append(
+                {"TARGET": line, "APP_NAME": _scraped[1], "URL": _scraped[0], "ADS.TXT": "-", "IS HTTPS?": "-",
+                 **fill_ups,
+                 "REMARKS": _scraped[3]})
+        else:
+            results.append({"TARGET": line, "APP_NAME": "-", "URL": "-", "ADS.TXT": "Failed", "IS HTTPS?": "-", **fill_ups,
+                            "REMARKS": "Unable to scrape data."})
         failed.append(line)
         return
 
@@ -83,7 +89,7 @@ def process(_scraper, line, results, failed, fill_ups, cols, default_cols=False)
         # continue
         return
 
-    t_url, app_name, scraped_data = preprocessed
+    t_url, app_name, scraped_data, remarks = preprocessed
     is_https, content_type, a_url, content = scraped_data
     if content_type and "text/plain" not in content_type:
         failed.append(line)
@@ -118,9 +124,20 @@ def process(_scraper, line, results, failed, fill_ups, cols, default_cols=False)
     results.append(r_dict)
 
 
-def run():
+def run_local():
+    cols = read_file_contents(SEARCH_FILE)
+    data = read_file_contents(TARGETS_FILE)
+    run(cols, data)
+
+
+def run_gsheet():
+    download_gsheet()
     cols = read_sheet_contents("search")
     data = read_sheet_contents("targets")
+    run(cols, data)
+
+
+def run(cols, data):
     default_cols = False
 
     results = []
@@ -140,5 +157,4 @@ def run():
 
 
 if __name__ == '__main__':
-    download_gsheet()
-    run()
+    run_gsheet()

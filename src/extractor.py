@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from src.settings import ua, default_request_timeouts
 from requests.exceptions import ReadTimeout, ConnectTimeout, ConnectionError
-
+from itunes_app_scraper.scraper import AppStoreScraper
 
 class ContentExtractor:
 
@@ -24,8 +24,16 @@ class ContentExtractor:
             return None
 
         if response.status_code != 200:
-            print(f"{url} failed with status code: {response.status_code}")
-            return None
+            if response.status_code == 429:
+                message = 'Rate Limit Exceeded'
+            elif response.status_code == 404:
+                if url.find('ads.txt') > -1:
+                    message = 'Ads.txt Not Found'
+                else:
+                    message = 'App Not Found'
+            else:
+                message = 'NA'
+            raise RuntimeError(f"{message}")
 
         text = response.text
         if text_only:
@@ -40,7 +48,25 @@ class ContentExtractor:
 
 class AppContentExtractor(ContentExtractor):
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.appstore_scraper = AppStoreScraper()
+        self.appstore_regex = re.compile(r"^https://apps.apple.com/(\S+)/app(?:/\S+)?/id(\d+)(?:/\S+)?")
+
+    def get_app_details_from_itunes(self, url):
+        search_result = self.appstore_regex.search(url)
+        if search_result:
+            country, app_id = search_result.groups()
+            app_details = self.appstore_scraper.get_app_details(app_id, country=country.lower())
+            return app_details.get('sellerUrl'), app_details.get('trackName')
+
     def process(self, url):
+        is_appstore_url = self.appstore_regex.match(url)
+        if is_appstore_url:
+            # for i in range(40):
+            seller_url, title = self.get_app_details_from_itunes(url)
+            if seller_url:
+                return (url, f"https://{urlparse(seller_url).netloc}/app-ads.txt", title)
         text = self.request_page(url, text_only=True)
         json_ld = extruct.extract(text, syntaxes=["json-ld"])["json-ld"][0]
 
