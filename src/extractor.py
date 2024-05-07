@@ -21,7 +21,7 @@ class ContentExtractor:
                 timeout=self.request_timeouts
             )
         except (ReadTimeout, ConnectTimeout, ConnectionError) as e:
-            return None
+            raise RuntimeError(f"ConnectionError {e}")
 
         if response.status_code != 200:
             if response.status_code == 429:
@@ -32,7 +32,7 @@ class ContentExtractor:
                 else:
                     message = 'App Not Found'
             else:
-                message = 'NA'
+                message = f'NA - {response.status_code}'
             raise RuntimeError(f"{message}")
 
         text = response.text

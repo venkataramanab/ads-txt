@@ -1,5 +1,6 @@
 import csv
 import os
+import signal
 import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -59,6 +60,9 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
     try:
         # TODO: App store bundle ids whose url has a country code other than "us" won't be available for scraping. Need to pass the full url into the scraper.
         _scraped = _scraper.scrape(line)
+        if not _scraped:
+            print(f'Unable to identify target {line}')
+            raise Exception(f'Unable to identify target {line}')
         _check = _scraped[2]
     except Exception as e:
         print(e)
@@ -75,15 +79,17 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
                  **fill_ups,
                  "REMARKS": _scraped[3]})
         else:
-            results.append({"TARGET": line, "APP_NAME": "-", "URL": "-", "ADS.TXT": "Failed", "IS HTTPS?": "-", **fill_ups,
-                            "REMARKS": "Unable to scrape data."})
+            results.append(
+                {"TARGET": line, "APP_NAME": "-", "URL": "-", "ADS.TXT": "Failed", "IS HTTPS?": "-", **fill_ups,
+                 "REMARKS": "Unable to scrape data."})
         failed.append(line)
         return
 
     return _scraped
 
 
-def process(_scraper, line, results, failed, fill_ups, cols, default_cols=False):
+def process(_id, _scraper, line, results, failed, fill_ups, cols, default_cols=False):
+    print(f"Running line no {_id}")
     preprocessed = preprocess(_scraper, line, results, failed, fill_ups)
     if not preprocessed:
         # continue
@@ -148,8 +154,9 @@ def run(cols, data):
 
     futures = []
     with ThreadPoolExecutor() as pool:
-        for line in data:
-            futures.append(pool.submit(process, *(scraper, line, results, failed, fill_ups, cols, default_cols)))
+        for line_no, line in enumerate(data):
+            futures.append(
+                pool.submit(process, *(line_no, scraper, line, results, failed, fill_ups, cols, default_cols)))
     for future in futures:
         future.result()
     dump_results(results, cols)
