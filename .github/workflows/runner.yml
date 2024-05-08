@@ -1,0 +1,37 @@
+name: Sync Apps
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 1440
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run
+        run: python run.py sync_apps
+        env:
+          GSHEET_ID: ${{secrets.GSHEET_ID}}
+      - name: Push updates
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.email "action@github.com";
+            git config --global user.name "Update Bot";
+            git add data;
+            git commit -m "Updated db on $(date -Iminutes)";
+            git push;
+          else
+            echo "no changes";
+          fi
