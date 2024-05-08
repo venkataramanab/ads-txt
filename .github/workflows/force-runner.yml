@@ -1,7 +1,7 @@
-name: Update ads.txt
+name: Force sync Apps
 on:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 6 * * 4"
 jobs:
   update:
     runs-on: ubuntu-20.04
@@ -18,7 +18,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run
-        run: python run.py ads_txt
+        run: python run.py sync_apps --force
         env:
           GSHEET_ID: ${{secrets.GSHEET_ID}}
       - name: Push updates
@@ -26,8 +26,8 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.email "action@github.com";
             git config --global user.name "Update Bot";
-            git add results;
-            git commit -m "Updated results on $(date -Iminutes)";
+            git add data;
+            git commit -m "Updated db on $(date -Iminutes)";
             git push;
           else
             echo "no changes";
