@@ -1,13 +1,23 @@
 import csv
 import os
-import signal
+import re
+from enum import Enum
+
+import psutil
+import sqlite3
 import time
 import urllib.request
+from urllib.parse import parse_qs, urlparse
+import argparse
+
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 from datetime import datetime as dt
 
 from src.scraper import AdsDotTxtScraper
+from google_play_scraper import app
+from google_play_scraper.exceptions import NotFoundError
+from itunes_app_scraper.scraper import AppStoreScraper, AppStoreException
 
 TARGETS_FILE = 'targets.txt'
 SEARCH_FILE = 'searches.txt'
@@ -50,7 +60,7 @@ def dump_failures(failed):
             f.write(i + "\n")
 
 
-def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATTEMPTS):
+def preprocess(runner, _scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATTEMPTS):
     if not (line and len(line.strip())):
         return
 
@@ -59,7 +69,16 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
     _check = None
     try:
         # TODO: App store bundle ids whose url has a country code other than "us" won't be available for scraping. Need to pass the full url into the scraper.
-        _scraped = _scraper.scrape(line)
+        app_request: AppRequest = runner.build_app_request(line)
+        if not app_request:
+            return
+        app_details = runner.get_app_from_db(app_request)
+        if not app_details:
+            return
+        if app_details[7]:
+            _scraped = [line, '-', '-', app_details[7]]
+            raise Exception(app_details[7])
+        _scraped = _scraper.scrape(app_details[0], app_details[1], app_details[2] + '/app-ads.txt')
         if not _scraped:
             print(f'Unable to identify target {line}')
             raise Exception(f'Unable to identify target {line}')
@@ -88,9 +107,12 @@ def preprocess(_scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATT
     return _scraped
 
 
-def process(_id, _scraper, line, results, failed, fill_ups, cols, default_cols=False):
+def process(_id, runner, _scraper, line, results, failed, fill_ups, cols, default_cols=False):
     print(f"Running line no {_id}")
-    preprocessed = preprocess(_scraper, line, results, failed, fill_ups)
+    print(
+        f"CPU: {psutil.cpu_percent()}, MEM_AVAILABLE: {psutil.virtual_memory().available * 100 / psutil.virtual_memory().total}")
+
+    preprocessed = preprocess(runner, _scraper, line, results, failed, fill_ups)
     if not preprocessed:
         # continue
         return
@@ -153,15 +175,210 @@ def run(cols, data):
     scraper = AdsDotTxtScraper({})
 
     futures = []
+    runner = Runner()
     with ThreadPoolExecutor() as pool:
         for line_no, line in enumerate(data):
             futures.append(
-                pool.submit(process, *(line_no, scraper, line, results, failed, fill_ups, cols, default_cols)))
+                pool.submit(process, *(line_no, runner, scraper, line, results, failed, fill_ups, cols, default_cols)))
     for future in futures:
         future.result()
     dump_results(results, cols)
     dump_failures(failed)
 
 
-if __name__ == '__main__':
+class Store(int, Enum):
+    APPSTORE = 0
+    PLAYSTORE = 1
+
+
+class AppRequest(dict):
+    def __init__(self, store, app_id, country, language):
+        super().__init__()
+        self['store'] = store
+        self['app_id'] = app_id
+        self['country'] = country
+        self['language'] = language
+
+    @property
+    def store(self):
+        return self['store']
+
+    @property
+    def app_id(self):
+        return self['app_id']
+
+    @property
+    def country(self):
+        return self['country']
+
+    @property
+    def language(self):
+        return self['language']
+
+
+class AppResponse(dict):
+    def __init__(self, app_id, app_name, app_domain, store, country, last_checked_at, language=None, notes=None):
+        super().__init__()
+        self['notes'] = notes
+        self['last_checked_at'] = last_checked_at
+        self['language'] = language
+        self['country'] = country
+        self['store'] = store
+        self['app_domain'] = app_domain
+        self['app_name'] = app_name
+        self['app_id'] = app_id
+
+    @classmethod
+    def from_app_request(cls, app_request: AppRequest, app_name=None, app_domain=None, notes=None):
+        return cls(app_request.app_id, app_name, app_domain, app_request.store, app_request.country, dt.now(),
+                   language=app_request.language, notes=notes)
+
+    def __getattr__(self, item):
+        return self[item]
+
+    @property
+    def as_tuple(self):
+        return (
+            self.app_id, self.app_name, self.app_domain, self.store, self.country, self.language,
+            self.last_checked_at, self.notes)
+
+
+class Runner(object):
+    """
+    Gathering ads.txt form App Store and playstore
+    app_url,app_name,app-ads.txt,last_checked_at
+    """
+    appstore_pat = re.compile(r"^https://apps.apple.com/(\S+)/app(?:/\S+)?/id(\d+)(?:/\S+)?")
+    playstore_pat = re.compile(r"^https://play.google.com/store/apps/details\S+")
+    playstore_bundle_pat = re.compile(r"^(?:[a-zA-Z]+(?:\d*[a-zA-Z_]*)*)(?:\.[a-zA-Z]+(?:\d*[a-zA-Z_]*)*)+$")
+    appstore_bundle_pat = re.compile(r"^\d+$")
+    appstore = 0
+    playstore = 1
+
+    def __init__(self):
+        self.db_path = 'data/app-ads-txt.db'
+        self.appstore_scraper = AppStoreScraper()
+
+    def _init_db(self):
+        if not os.path.exists(self.db_path):
+            self._create_tables()
+
+    def _create_tables(self):
+        con = sqlite3.connect(self.db_path)
+        cur = con.cursor()
+        cur.execute(
+            '''CREATE TABLE apps (app_id text PRIMARY KEY NOT NULL, app_name text, app_domain text, store integer NOT NULL, country CHAR(3), language CHAR(3), last_checked_at text NOT NULL, notes text)''')
+        con.commit()
+        con.close()
+
+    def get_app_from_db(self, app_request):
+        con = sqlite3.connect(self.db_path)
+        cur = con.cursor()
+        cur.execute("SELECT * from apps WHERE app_id=?", (app_request.app_id,))
+        row = cur.fetchone()
+        con.close()
+        return row
+
+    def _sync_app_on_db(self, app_response: AppResponse):
+        con = sqlite3.connect(self.db_path)
+        cur = con.cursor()
+        cur.execute(
+            "insert or replace into apps (app_id, app_name, app_domain, store, country, language, last_checked_at, notes) values (?,?,?,?,?,?,?,?);",
+            app_response.as_tuple)
+        con.commit()
+        con.close()
+
+    def _fetch_latest_app_details(self, app_request: AppRequest):
+        title, dev_website = None, None
+        if app_request.store == Store.PLAYSTORE:
+            try:
+                result = app(app_request.app_id, lang=app_request.language, country=app_request.country)
+            except NotFoundError as e:
+                return AppResponse.from_app_request(app_request, notes=str(e))
+            if result:
+                title, dev_website = result.get('title', None), result.get('developerWebsite', None)
+        elif app_request.store == Store.APPSTORE:
+            try:
+                app_details = self.appstore_scraper.get_app_details(app_request.app_id, country=app_request.country)
+            except AppStoreException as e:
+                return AppResponse.from_app_request(app_request, notes=str(e))
+            if app_details:
+                title, dev_website = app_details.get('trackName'), app_details.get('sellerUrl')
+        if title and dev_website:
+            p_result = urlparse(dev_website)
+            dev_website = f'{p_result.scheme}://{p_result.netloc}'
+            return AppResponse.from_app_request(app_request, title, dev_website)
+
+    def _sync_app_details_if_required(self, app_request, force=False):
+        app_result = self.get_app_from_db(app_request)
+        if app_result:
+            if 'Could not parse app store response for ID' in app_result[7]:
+                print(f'Rechecking existing app {app_request.app_id}')
+            else:
+                # check for expiry if expired fetch again
+                print(f"app_exists skipping {app_request.app_id}")
+                if not force:
+                    return
+        print(f"fetching app details {app_request}")
+        app_response = self._fetch_latest_app_details(app_request)
+        if app_response:
+            self._sync_app_on_db(app_response)
+        else:
+            print(f"failed to receive app_response for {app_request.app_id}")
+
+    def build_app_request(self, cell):
+        if self.appstore_pat.match(cell):
+            country, app_id = self.appstore_pat.search(cell).groups()
+            return AppRequest(Store.APPSTORE, app_id, country.lower(), "")
+        if self.playstore_pat.match(cell):
+            p_url = parse_qs(urlparse(cell).query)
+            app_id = p_url.get('id', None)
+            if not app_id:
+                return
+            return AppRequest(Store.PLAYSTORE, app_id[0], p_url.get('gl', 'US').lower(),
+                              p_url.get('hl', 'en').lower())
+        if self.playstore_bundle_pat.match(cell):
+            return AppRequest(Store.PLAYSTORE, cell, 'us', 'en')
+        if self.appstore_bundle_pat.match(cell):
+            return AppRequest(Store.APPSTORE, cell, 'us', '')
+        return
+
+    def run(self, force=False):
+        download_gsheet()
+        self._init_db()
+        col = read_sheet_contents("targets")
+        futures = []
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            for cell in col:
+                cell = cell.strip()
+                if cell:
+                    app_request = self.build_app_request(cell)
+                    if not app_request:
+                        return print(f"Issue with {cell}")
+                    futures.append(pool.submit(self._sync_app_details_if_required, app_request, force))
+                    # self._sync_app_details_if_required(app_request)
+            for future in futures:
+                future.result()
+
+
+def sync_apps(_args):
+    Runner().run(force=args.force)
+
+
+def ads_txt(_args):
     run_gsheet()
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Ads-txt runner')
+    subparsers = parser.add_subparsers()
+
+    sync_apps_parser = subparsers.add_parser('sync_apps', help='Sync apps')
+    sync_apps_parser.set_defaults(func=sync_apps)
+    sync_apps_parser.add_argument('--force', action='store_true', help='force latest info')
+
+    index_all_parser = subparsers.add_parser('ads_txt', help='Checks app-ads.txt')
+    index_all_parser.set_defaults(func=ads_txt)
+
+    args = parser.parse_args()
+    args.func(args)

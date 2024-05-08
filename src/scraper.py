@@ -48,16 +48,16 @@ class AdsDotTxtScraper:
             fp.write(contents)
         return file_name
 
-    def scrape(self, target):
-        try:
-            _target = self.__build_target(target)
-        except (AppStoreException, RuntimeError) as e:
-            return '-', '-', None, e
+    def scrape(self, t_url, app_name, a_url):
+        # try:
+        #     _target = self.__build_target(target)
+        # except (AppStoreException, RuntimeError) as e:
+        #     return '-', '-', None, e
+        #
+        # if not _target:
+        #     return
 
-        if not _target:
-            return
-
-        t_url, a_url, app_name = _target
+        # t_url, a_url, app_name = _target
         if a_url in self.state:
             while self.state[a_url]['code'] == 1:  # Queued
                 time.sleep(0.1)
