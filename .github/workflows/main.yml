@@ -1,5 +1,8 @@
 name: Update ads.txt
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * 1"
 jobs:
@@ -18,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run
-        run: python run.py
+        run: python run.py ads_txt
         env:
           GSHEET_ID: ${{secrets.GSHEET_ID}}
       - name: Push updates
