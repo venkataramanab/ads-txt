@@ -1,3 +1,4 @@
+[![Update ads.txt](https://github.com/venkataramanab/ads-txt/actions/workflows/main.yml/badge.svg)](https://github.com/venkataramanab/ads-txt/actions/workflows/main.yml)
 # Ads.txt Scraper
 
 ## Steps
