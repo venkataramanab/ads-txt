@@ -13,7 +13,9 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 from datetime import datetime as dt
-
+import extruct
+from bs4 import BeautifulSoup
+from src.extractor import ContentExtractor
 from src.scraper import AdsDotTxtScraper
 from google_play_scraper import app
 from google_play_scraper.exceptions import NotFoundError
@@ -215,6 +217,13 @@ class AppRequest(dict):
     def language(self):
         return self['language']
 
+    @property
+    def full_url(self):
+        if self.store == Store.APPSTORE:
+            return f'https://apps.apple.com/{self.country}/app/id{self.app_id}'
+        elif self.store == Store.PLAYSTORE:
+            return f'https://play.google.com/store/apps/details?id={self.app_id}&gl={self.country}&hl={self.language}'
+
 
 class AppResponse(dict):
     def __init__(self, app_id, app_name, app_domain, store, country, last_checked_at, language=None, notes=None):
@@ -258,6 +267,7 @@ class Runner(object):
     def __init__(self):
         self.db_path = 'data/app-ads-txt.db'
         self.appstore_scraper = AppStoreScraper()
+        self.content_extractor = ContentExtractor()
 
     def _init_db(self):
         if not os.path.exists(self.db_path):
@@ -288,6 +298,28 @@ class Runner(object):
         con.commit()
         con.close()
 
+    def _fetch_fallback_appstore_app_details(self, app_request: AppRequest):
+        title, dev_website = None, None
+        response = self.content_extractor.request_page(app_request.full_url, text_only=True)
+        if response:
+            json_ld = extruct.extract(response, syntaxes=["json-ld"])["json-ld"][0]
+            title = json_ld.get("name")
+            if app_request.store == Store.APPSTORE:
+                _soup = BeautifulSoup(response, 'html.parser')
+                _ul = _soup.find('ul', {"class": "inline-list--app-extensions"})
+                if _ul:
+                    el = _ul.findAll('a')
+                    if el:
+                        dev_website = f"https://{urlparse(el[0].get('href')).netloc}"
+            elif app_request.store == Store.PLAYSTORE:
+                author = json_ld.get("author")
+                if author:
+                    _url = author.get("url")
+                    if _url:
+                        dev_website = f"https://{urlparse(_url).netloc}"
+        if title and dev_website:
+            return AppResponse.from_app_request(app_request, title, dev_website)
+
     def _fetch_latest_app_details(self, app_request: AppRequest):
         title, dev_website = None, None
         if app_request.store == Store.PLAYSTORE:
@@ -296,7 +328,7 @@ class Runner(object):
             except NotFoundError as e:
                 return AppResponse.from_app_request(app_request, notes=str(e))
             if result:
-                title, dev_website = result.get('title', None), result.get('developerWebsite', None)
+                title, dev_website = result.get('title'), result.get('developerWebsite') or result.get('privacyPolicy')
         elif app_request.store == Store.APPSTORE:
             try:
                 app_details = self.appstore_scraper.get_app_details(app_request.app_id, country=app_request.country)
@@ -308,6 +340,8 @@ class Runner(object):
             p_result = urlparse(dev_website)
             dev_website = f'{p_result.scheme}://{p_result.netloc}'
             return AppResponse.from_app_request(app_request, title, dev_website)
+        else:
+            return self._fetch_fallback_appstore_app_details(app_request)
 
     def _sync_app_details_if_required(self, app_request, force=False):
         app_result = self.get_app_from_db(app_request)
@@ -316,7 +350,7 @@ class Runner(object):
                 print(f'Rechecking existing app {app_request.app_id}')
             else:
                 # check for expiry if expired fetch again
-                print(f"app_exists skipping {app_request.app_id}")
+                # print(f"app_exists skipping {app_request.app_id}")
                 if not force:
                     return
         print(f"fetching app details {app_request}")
