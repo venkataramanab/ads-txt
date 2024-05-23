@@ -264,7 +264,9 @@ class Runner(object):
     appstore = 0
     playstore = 1
 
-    def __init__(self):
+    def __init__(self, **kwargs):
+        self.only_new_apps = kwargs.get('only_new_apps', False)
+        self.force = kwargs.get('force', False)
         self.db_path = 'data/app-ads-txt.db'
         self.appstore_scraper = AppStoreScraper()
         self.content_extractor = ContentExtractor()
@@ -343,15 +345,17 @@ class Runner(object):
         else:
             return self._fetch_fallback_appstore_app_details(app_request)
 
-    def _sync_app_details_if_required(self, app_request, force=False):
+    def _sync_app_details_if_required(self, app_request):
         app_result = self.get_app_from_db(app_request)
         if app_result:
+            if self.only_new_apps:
+                return
             if 'Could not parse app store response for ID' in app_result[7]:
                 print(f'Rechecking existing app {app_request.app_id}')
             else:
                 # check for expiry if expired fetch again
                 # print(f"app_exists skipping {app_request.app_id}")
-                if not force:
+                if not self.force:
                     return
         print(f"fetching app details {app_request}")
         app_response = self._fetch_latest_app_details(app_request)
@@ -377,7 +381,7 @@ class Runner(object):
             return AppRequest(Store.APPSTORE, cell, 'us', '')
         return
 
-    def run(self, force=False):
+    def run(self):
         download_gsheet()
         self._init_db()
         col = read_sheet_contents("targets")
@@ -388,15 +392,16 @@ class Runner(object):
                 if cell:
                     app_request = self.build_app_request(cell)
                     if not app_request:
-                        return print(f"Issue with {cell}")
-                    futures.append(pool.submit(self._sync_app_details_if_required, app_request, force))
+                        print(f"Issue with {cell}")
+                        continue
+                    futures.append(pool.submit(self._sync_app_details_if_required, app_request))
                     # self._sync_app_details_if_required(app_request)
             for future in futures:
                 future.result()
 
 
 def sync_apps(_args):
-    Runner().run(force=args.force)
+    Runner(**_args).run()
 
 
 def ads_txt(_args):
@@ -410,9 +415,10 @@ if __name__ == '__main__':
     sync_apps_parser = subparsers.add_parser('sync_apps', help='Sync apps')
     sync_apps_parser.set_defaults(func=sync_apps)
     sync_apps_parser.add_argument('--force', action='store_true', help='force latest info')
+    sync_apps_parser.add_argument('--only-new-apps', action='store_true', help='sync only new apps')
 
     index_all_parser = subparsers.add_parser('ads_txt', help='Checks app-ads.txt')
     index_all_parser.set_defaults(func=ads_txt)
 
     args = parser.parse_args()
-    args.func(args)
+    args.func(vars(args))

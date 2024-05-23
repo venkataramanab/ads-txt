@@ -1,8 +1,6 @@
 name: Sync Apps
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
 jobs:
