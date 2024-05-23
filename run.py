@@ -265,8 +265,8 @@ class Runner(object):
     playstore = 1
 
     def __init__(self, **kwargs):
-        self.only_new_apps = kwargs.get('only_new_apps', False)
-        self.force = kwargs.get('force', False)
+        self.only_new_apps = kwargs.get('only_new_apps', os.getenv('ONLY_NEW_APPS', False))
+        self.force = kwargs.get('force', os.getenv('FORCE', False))
         self.db_path = 'data/app-ads-txt.db'
         self.appstore_scraper = AppStoreScraper()
         self.content_extractor = ContentExtractor()

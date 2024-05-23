@@ -1,6 +1,15 @@
 name: Sync Apps
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force Run'
+        required: false
+        type: boolean
+      onlyNewApps:
+        description: 'Run only new apps'
+        required: false
+        type: boolean
   schedule:
     - cron: "0 */12 * * *"
 jobs:
@@ -22,6 +31,8 @@ jobs:
         run: python run.py sync_apps
         env:
           GSHEET_ID: ${{secrets.GSHEET_ID}}
+          FORCE: ${{ inputs.force }}
+          ONLY_NEW_APPS: ${{ inputs.onlyNewApps }}
       - name: Push updates
         run: |
           if [ -n "$(git status --porcelain)" ]; then
