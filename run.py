@@ -10,7 +10,7 @@ import urllib.request
 from urllib.parse import parse_qs, urlparse
 import argparse
 
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED, ALL_COMPLETED
 import pandas as pd
 from datetime import datetime as dt
 import extruct
@@ -259,14 +259,14 @@ class Runner(object):
     """
     appstore_pat = re.compile(r"^https://apps.apple.com/(\S+)/app(?:/\S+)?/id(\d+)(?:/\S+)?")
     playstore_pat = re.compile(r"^https://play.google.com/store/apps/details\S+")
-    playstore_bundle_pat = re.compile(r"^(?:[a-zA-Z]+(?:\d*[a-zA-Z_]*)*)(?:\.[a-zA-Z]+(?:\d*[a-zA-Z_]*)*)+$")
+    playstore_bundle_pat = re.compile(r"^(?:[a-zA-Z]+(?:\d*[a-zA-Z_]*)*)(?:\.\d*[a-zA-Z]+(?:\d*[a-zA-Z_-]*)*)+$")
     appstore_bundle_pat = re.compile(r"^\d+$")
     appstore = 0
     playstore = 1
 
     def __init__(self, **kwargs):
-        self.only_new_apps = kwargs.get('only_new_apps', os.getenv('ONLY_NEW_APPS', False))
-        self.force = kwargs.get('force', os.getenv('FORCE', False))
+        self.only_new_apps = kwargs.get('only_new_apps', False)
+        self.force = kwargs.get('force', False)
         self.db_path = 'data/app-ads-txt.db'
         self.appstore_scraper = AppStoreScraper()
         self.content_extractor = ContentExtractor()
@@ -385,7 +385,8 @@ class Runner(object):
         download_gsheet()
         self._init_db()
         col = read_sheet_contents("targets")
-        futures = []
+        futures = set()
+        completed = 0
         with ThreadPoolExecutor(max_workers=4) as pool:
             for cell in col:
                 cell = cell.strip()
@@ -394,7 +395,11 @@ class Runner(object):
                     if not app_request:
                         print(f"Issue with {cell}")
                         continue
-                    futures.append(pool.submit(self._sync_app_details_if_required, app_request))
+                    if len(futures) >= 1000:
+                        _, futures = wait(futures, return_when=ALL_COMPLETED)
+                        completed += len(_)
+                        print(f"completed {completed}")
+                    futures.add(pool.submit(self._sync_app_details_if_required, app_request))
                     # self._sync_app_details_if_required(app_request)
             for future in futures:
                 future.result()
@@ -414,8 +419,10 @@ if __name__ == '__main__':
 
     sync_apps_parser = subparsers.add_parser('sync_apps', help='Sync apps')
     sync_apps_parser.set_defaults(func=sync_apps)
-    sync_apps_parser.add_argument('--force', action='store_true', help='force latest info')
-    sync_apps_parser.add_argument('--only-new-apps', action='store_true', help='sync only new apps')
+    sync_apps_parser.add_argument('--force', action='store_true', help='force latest info',
+                                  default=os.getenv('FORCE', False))
+    sync_apps_parser.add_argument('--only-new-apps', action='store_true', help='sync only new apps',
+                                  default=os.getenv('ONLY_NEW_APPS', False))
 
     index_all_parser = subparsers.add_parser('ads_txt', help='Checks app-ads.txt')
     index_all_parser.set_defaults(func=ads_txt)
