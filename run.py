@@ -350,7 +350,7 @@ class Runner(object):
         if app_result:
             if self.only_new_apps:
                 return
-            if 'Could not parse app store response for ID' in app_result[7]:
+            if app_result[7] and 'Could not parse app store response for ID' in app_result[7]:
                 print(f'Rechecking existing app {app_request.app_id}')
             else:
                 # check for expiry if expired fetch again
