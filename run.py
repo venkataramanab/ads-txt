@@ -387,7 +387,7 @@ class Runner(object):
         col = read_sheet_contents("targets")
         futures = set()
         completed = 0
-        with ThreadPoolExecutor(max_workers=4) as pool:
+        with ThreadPoolExecutor() as pool:
             for cell in col:
                 cell = cell.strip()
                 if cell:
