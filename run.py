@@ -111,8 +111,8 @@ def preprocess(runner, _scraper, line, results, failed, fill_ups, trial=FAILED_R
 
 def process(_id, runner, _scraper, line, results, failed, fill_ups, cols, default_cols=False):
     print(f"Running line no {_id}")
-    print(
-        f"CPU: {psutil.cpu_percent()}, MEM_AVAILABLE: {psutil.virtual_memory().available * 100 / psutil.virtual_memory().total}")
+    # print(
+        # f"CPU: {psutil.cpu_percent()}, MEM_AVAILABLE: {psutil.virtual_memory().available * 100 / psutil.virtual_memory().total}")
 
     preprocessed = preprocess(runner, _scraper, line, results, failed, fill_ups)
     if not preprocessed:

@@ -60,13 +60,17 @@ class AdsDotTxtScraper:
         # t_url, a_url, app_name = _target
         if a_url in self.state:
             while self.state[a_url]['code'] == 1:  # Queued
+                if int(time.time()) - self.state[a_url]['ts'] > 120:
+                    with self.rlock:
+                        self.state[a_url].update({'code': 2, 'e': RuntimeError("Timeout while waiting for response.")})
+                    return t_url, app_name, None, self.state[a_url]['e']
                 time.sleep(0.1)
                 # print(f"waiting for {a_url}")
             if self.state[a_url]['code'] == 2:  # Failed
                 return t_url, app_name, None, self.state[a_url]['e']
         else:
             with self.rlock:
-                self.state[a_url] = {'code': 1}
+                self.state[a_url] = {'code': 1, 'ts': int(time.time())}
                 # print(f"url queued {a_url}")
 
         if a_url not in self.store:
