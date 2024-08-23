@@ -388,18 +388,21 @@ class Runner(object):
         futures = set()
         completed = 0
         with ThreadPoolExecutor() as pool:
-            for cell in col:
+            for inx, cell in enumerate(col):
                 if isinstance(cell, str):
                     cell = cell.strip()
+                else:
+                    print(f"{inx} - Issue with {cell}")
+                    continue
                 if cell:
                     app_request = self.build_app_request(cell)
                     if not app_request:
-                        print(f"Issue with {cell}")
+                        print(f"{inx} - Issue with {cell}")
                         continue
                     if len(futures) >= 1000:
                         _, futures = wait(futures, return_when=ALL_COMPLETED)
                         completed += len(_)
-                        print(f"completed {completed}")
+                        print(f"{inx} - completed {completed}")
                     futures.add(pool.submit(self._sync_app_details_if_required, app_request))
                     # self._sync_app_details_if_required(app_request)
             for future in futures:
