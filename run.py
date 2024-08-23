@@ -389,7 +389,8 @@ class Runner(object):
         completed = 0
         with ThreadPoolExecutor() as pool:
             for cell in col:
-                cell = cell.strip()
+                if isinstance(cell, str):
+                    cell = cell.strip()
                 if cell:
                     app_request = self.build_app_request(cell)
                     if not app_request:
