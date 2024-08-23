@@ -259,7 +259,7 @@ class Runner(object):
     """
     appstore_pat = re.compile(r"^https://apps.apple.com/(\S+)/app(?:/\S+)?/id(\d+)(?:/\S+)?")
     playstore_pat = re.compile(r"^https://play.google.com/store/apps/details\S+")
-    playstore_bundle_pat = re.compile(r"^(?:[a-zA-Z]+(?:\d*[a-zA-Z_]*)*)(?:\.\d*[a-zA-Z]+(?:\d*[a-zA-Z_-]*)*)+$")
+    playstore_bundle_pat = re.compile(r"^([A-Za-z]{1}[A-Za-z\d_]*\.)+[A-Za-z][A-Za-z\d_]*$")
     appstore_bundle_pat = re.compile(r"^\d+$")
     appstore = 0
     playstore = 1
