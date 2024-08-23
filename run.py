@@ -63,7 +63,7 @@ def dump_failures(failed):
 
 
 def preprocess(runner, _scraper, line, results, failed, fill_ups, trial=FAILED_RETRY_ATTEMPTS):
-    if not (line and len(line.strip())):
+    if not (line and isinstance(line, str) and len(line.strip())):
         return
 
     status = True
@@ -415,6 +415,10 @@ def sync_apps(_args):
 
 def ads_txt(_args):
     run_gsheet()
+
+
+def run_sites(_args):
+    pass
 
 
 if __name__ == '__main__':
