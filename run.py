@@ -24,7 +24,9 @@ from itunes_app_scraper.scraper import AppStoreScraper, AppStoreException
 TARGETS_FILE = 'targets.txt'
 SEARCH_FILE = 'searches.txt'
 RESULTS_FILE = f'results/results_{dt.now().strftime("%d_%m_%y")}.csv'
+SITE_RESULTS_FILE = f'results/results_sites_{dt.now().strftime("%d_%m_%y")}.csv'
 FAILED_FILE = f'results/failed_{dt.now().strftime("%d_%m_%y")}.txt'
+SITE_FAILED_FILE = f'results/failed_sites_{dt.now().strftime("%d_%m_%y")}.txt'
 GSHEET_FILE = 'ads_spec.xlsx'
 GSHEET_ID = os.environ.get('GSHEET_ID')
 
@@ -48,16 +50,16 @@ def read_sheet_contents(sheet_name):
     return pd.read_excel(io=GSHEET_FILE, sheet_name=sheet_name, dtype=str).iloc[:, 0].tolist()
 
 
-def dump_results(results, cols):
-    with open(RESULTS_FILE, "w", newline="") as csvfile:
+def dump_results(results, cols, file_name=RESULTS_FILE):
+    with open(file_name, "w", newline="") as csvfile:
         fieldnames = ["TARGET", "APP_NAME", "URL", "ADS.TXT", "IS HTTPS?"] + cols + ["REMARKS"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
 
 
-def dump_failures(failed):
-    with open(FAILED_FILE, "w", newline="") as f:
+def dump_failures(failed, file_name=FAILED_FILE):
+    with open(file_name, "w", newline="") as f:
         for i in failed:
             f.write(i + "\n")
 
@@ -164,7 +166,83 @@ def run_gsheet():
     download_gsheet()
     cols = read_sheet_contents("search")
     data = read_sheet_contents("targets")
+    sites = read_sheet_contents("sites")
     run(cols, data)
+    run_for_sites(cols, sites)
+
+def is_valid_domain(domain):
+    pattern = r"^(?=.{1,253}$)((?!-)[A-Za-z0-9-]{1,63}(?<!-)\.)+(?!-)[A-Za-z]{2,63}$"
+    return re.match(pattern, domain) is not None
+
+def _process_domain(_id, domain, results, failed, fill_ups, cols, extractor):
+    print(f"Running line no {_id}")
+    default_cols = False
+    domain = domain.strip()
+    print(f"Processing {domain}")
+    if domain and len(domain) > 4 and is_valid_domain(domain):
+        if not domain.startswith("http"):
+            domain = f"https://{domain}"
+        urlparse_result = urlparse(domain)
+        if not urlparse_result.netloc:
+            print(f"Skipping {domain}")
+            failed.append(domain)
+            results.append(
+                {"TARGET": domain, "APP_NAME": "-", "URL": "-", "ADS.TXT": "-", "IS HTTPS?": "-", **fill_ups,
+                 "REMARKS": "Invalid URL"})
+            return
+        try:
+            is_https, content_type, _url, text = extractor.request_page(f'{domain}/ads.txt')
+            if not text:
+                raise RuntimeError("Empty response")
+
+            if content_type and "text/plain" not in content_type:
+                raise RuntimeError("Text content not found")
+            splitted_content = [i.strip("\r") for i in text.split("\n") if i.strip()]
+            no_of_lines = len(splitted_content)
+            if no_of_lines < 5:
+                raise RuntimeError(f"{no_of_lines} lines only")
+            r_dict = {"TARGET": domain, "APP_NAME": "-", "URL": domain, "ADS.TXT": f"{domain}/ads.txt",
+                      "IS HTTPS?": is_https}
+            for i in cols:
+                options = (", ".join(i.lower().split(",")), ",".join(i.lower().split(",")))
+                if default_cols:
+                    values = "True" if (
+                            options[0] in str(text).lower() or options[1] in str(text).lower()) else "False"
+                else:
+                    values = "; ".join(
+                        filter(lambda x: (options[0] in x.lower() or options[1] in x.lower()), splitted_content)) or "-"
+                r_dict[i] = values
+            results.append(r_dict)
+        except RuntimeError as e:
+            print(f"Failed to fetch {domain}: {e}")
+            failed.append(domain)
+            results.append(
+                {"TARGET": domain, "APP_NAME": "-", "URL": "-", "ADS.TXT": "-", "IS HTTPS?": "-", **fill_ups,
+                 "REMARKS": str(e)})
+            return
+    else:
+        print(f"Invalid domain {domain}")
+        failed.append(domain)
+        results.append(
+            {"TARGET": domain, "APP_NAME": "-", "URL": "-", "ADS.TXT": "-", "IS HTTPS?": "-", **fill_ups,
+             "REMARKS": "Invalid domain"})
+
+
+def run_for_sites(cols, data):
+    results = []
+    failed = []
+    fill_ups = {i: "-" for i in cols}
+
+    extractor = ContentExtractor()
+    with ThreadPoolExecutor() as pool:
+        futures = []
+        for line_no, line in enumerate(data):
+            futures.append(pool.submit(_process_domain, line_no, line, results, failed, fill_ups, cols, extractor))
+    for future in futures:
+        future.result()
+
+    dump_results(results, cols, file_name=SITE_RESULTS_FILE)
+    dump_failures(failed, file_name=SITE_FAILED_FILE)
 
 
 def run(cols, data):
