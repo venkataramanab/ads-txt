@@ -484,7 +484,11 @@ class Runner(object):
                     futures.add(pool.submit(self._sync_app_details_if_required, app_request))
                     # self._sync_app_details_if_required(app_request)
             for future in futures:
-                future.result()
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"{inx} - {e}")
+                    break
 
 
 def sync_apps(_args):
