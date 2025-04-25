@@ -14,7 +14,7 @@ on:
     - cron: "0 */12 * * *"
 jobs:
   update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     timeout-minutes: 700
     steps:
       - name: Checkout
