@@ -1,0 +1,481 @@
+TARGET,APP_NAME,URL,ADS.TXT,IS HTTPS?,theaudiencestreet.com,REMARKS
+safari-reader,-,-,-,-,-,Invalid domain
+https://tecadmin.net,-,https://tecadmin.net,https://tecadmin.net/ads.txt,True,-,
+https://nanoreview.net,-,https://nanoreview.net,https://nanoreview.net/ads.txt,True,-,
+https://streamfare.com,-,https://streamfare.com,https://streamfare.com/ads.txt,True,-,
+https://brokensilenze.net,-,-,-,-,-,NA - 202
+https://brokensilenze.net,-,-,-,-,-,NA - 202
+https://theitbros.com,-,-,-,-,-,NA - 202
+https://colonist.io,-,https://colonist.io,https://colonist.io/ads.txt,True,-,
+https://national-park.com,-,https://national-park.com,https://national-park.com/ads.txt,True,"theaudiencestreet.com,TAS-703,RESELLER",
+https://dotnettutorials.net,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='dotnettutorials.net', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'dotnettutorials.net'. (_ssl.c:1017)"")))"
+https://refdesk.com,-,https://refdesk.com,https://refdesk.com/ads.txt,True,-,
+https://anandabazar.com,-,https://anandabazar.com,https://anandabazar.com/ads.txt,True,-,
+https://ww2.readsololeveling.org,-,https://ww2.readsololeveling.org,https://ww2.readsololeveling.org/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://aktuelle-auto-news.de,-,https://aktuelle-auto-news.de,https://aktuelle-auto-news.de/ads.txt,True,-,
+https://postimg.cc,-,-,-,-,-,Empty response
+https://mangaeffect.com,-,https://mangaeffect.com,https://mangaeffect.com/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://philstar.com,-,https://philstar.com,https://philstar.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://onlinedominogames.com,-,https://onlinedominogames.com,https://onlinedominogames.com/ads.txt,True,-,
+https://ww6.readfairytail.com,-,https://ww6.readfairytail.com,https://ww6.readfairytail.com/ads.txt,True,-,
+https://dlpanda.com,-,https://dlpanda.com,https://dlpanda.com/ads.txt,True,-,
+https://movie-screencaps.com,-,https://movie-screencaps.com,https://movie-screencaps.com/ads.txt,True,-,
+https://celeb98.com,-,https://celeb98.com,https://celeb98.com/ads.txt,False,"theaudiencestreet.com, n19t95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT",
+https://ww4.readkingdom.com,-,https://ww4.readkingdom.com,https://ww4.readkingdom.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://ww8.readmha.com,-,https://ww8.readmha.com,https://ww8.readmha.com/ads.txt,True,-,
+https://boxnovel.com,-,-,-,-,-,Text content not found
+https://colonist.io,-,https://colonist.io,https://colonist.io/ads.txt,True,-,
+https://merojax.me,-,https://merojax.me,https://merojax.me/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://mydailystars.com,-,https://mydailystars.com,https://mydailystars.com/ads.txt,True,-,
+https://ww8.readhaikyuu.com,-,https://ww8.readhaikyuu.com,https://ww8.readhaikyuu.com/ads.txt,True,-,
+https://v2.totalsporteks.net,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='v2.totalsporteks.net', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35c111ea0>: Failed to resolve 'v2.totalsporteks.net' ([Errno -2] Name or service not known)""))"
+https://ibb.co,-,-,-,-,-,Empty response
+https://evilmilk.com,-,https://evilmilk.com,https://evilmilk.com/ads.txt,True,-,
+https://ww8.readblackclover.com,-,https://ww8.readblackclover.com,https://ww8.readblackclover.com/ads.txt,True,-,
+https://en.taiwebs.com,-,https://en.taiwebs.com,https://en.taiwebs.com/ads.txt,True,-,
+https://sparkbyexamples.com,-,https://sparkbyexamples.com,https://sparkbyexamples.com/ads.txt,True,-,
+https://bcbay.com,-,https://bcbay.com,https://bcbay.com/ads.txt,True,-,
+https://dreamies.de,-,https://dreamies.de,https://dreamies.de/ads.txt,True,-,
+https://jagranjosh.com,-,https://jagranjosh.com,https://jagranjosh.com/ads.txt,True,-,
+https://bronovel.com,-,-,-,-,-,Text content not found
+https://tvcine.me,-,https://tvcine.me,https://tvcine.me/ads.txt,True,-,
+https://teenidols4you.com,-,https://teenidols4you.com,https://teenidols4you.com/ads.txt,True,-,
+https://elgoog.im,-,https://elgoog.im,https://elgoog.im/ads.txt,True,-,
+https://ebookhunter.net,-,https://ebookhunter.net,https://ebookhunter.net/ads.txt,True,-,
+https://news.popyard.space,-,-,-,-,-,Ads.txt Not Found
+https://livenewsmag.com,-,https://livenewsmag.com,https://livenewsmag.com/ads.txt,True,-,
+https://y99.in,-,https://y99.in,https://y99.in/ads.txt,True,"theaudiencestreet.com ,323-b5673 ,DIRECT ,20e30b2ae1f670f2; theaudiencestreet.com, TAS-703, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://thoughtnova.com,-,-,-,-,-,Ads.txt Not Found
+https://tvenvivoecuador.com,-,https://tvenvivoecuador.com,https://tvenvivoecuador.com/ads.txt,True,-,
+https://meetyou.me,-,-,-,-,-,NA - 403
+https://lolitopia.com,-,https://lolitopia.com,https://lolitopia.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://newsinfo.inquirer.net,-,https://newsinfo.inquirer.net,https://newsinfo.inquirer.net/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://manoramaonline.com,-,https://manoramaonline.com,https://manoramaonline.com/ads.txt,True,-,
+https://mathematics-monster.com,-,https://mathematics-monster.com,https://mathematics-monster.com/ads.txt,True,-,
+https://celebmafia.com,-,https://celebmafia.com,https://celebmafia.com/ads.txt,True,-,
+https://themezon.net,-,https://themezon.net,https://themezon.net/ads.txt,True,-,
+https://chat.chatgptdemo.net,-,-,-,-,-,Text content not found
+https://ww9.readnaruto.com,-,https://ww9.readnaruto.com,https://ww9.readnaruto.com/ads.txt,True,-,
+https://androidweblog.com,-,https://androidweblog.com,https://androidweblog.com/ads.txt,True,-,
+https://telugu.greatandhra.com,-,-,-,-,-,Ads.txt Not Found
+https://tuberipper.cc,-,https://tuberipper.cc,https://tuberipper.cc/ads.txt,True,-,
+https://steamsolo.com,-,https://steamsolo.com,https://steamsolo.com/ads.txt,True,-,
+https://m.greatandhra.com,-,https://m.greatandhra.com,https://m.greatandhra.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://ww5.read7deadlysins.com,-,https://ww5.read7deadlysins.com,https://ww5.read7deadlysins.com/ads.txt,True,-,
+https://vintag.es,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='vintag.es', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))"
+https://messynessychic.com,-,https://messynessychic.com,https://messynessychic.com/ads.txt,True,-,
+https://mathrubhumi.com,-,https://mathrubhumi.com,https://mathrubhumi.com/ads.txt,True,"theaudiencestreet.com,323-b5685,DIRECT,20e30b2ae1f670f2",
+https://business-trade.me,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='business-trade.me', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35c8c3490>: Failed to resolve 'business-trade.me' ([Errno -2] Name or service not known)""))"
+https://ww3.readkaguyasama.com,-,https://ww3.readkaguyasama.com,https://ww3.readkaguyasama.com/ads.txt,True,-,
+https://novel24.com,-,https://novel24.com,https://novel24.com/ads.txt,True,-,
+https://mangakakalot.to,-,https://mangakakalot.to,https://mangakakalot.to/ads.txt,True,-,
+https://ww4.readopm.com,-,https://ww4.readopm.com,https://ww4.readopm.com/ads.txt,True,-,
+https://ssstwitter.com,-,-,-,-,-,4 lines only
+https://gulte.com,-,https://gulte.com,https://gulte.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, RESELLER, 20e30b2ae1f670f2",
+https://gazetatema.net,-,https://gazetatema.net,https://gazetatema.net/ads.txt,True,-,
+https://angularjswiki.com,-,https://angularjswiki.com,https://angularjswiki.com/ads.txt,True,-,
+https://es.taiwebs.com,-,https://es.taiwebs.com,https://es.taiwebs.com/ads.txt,True,-,
+https://tektutorialshub.com,-,https://tektutorialshub.com,https://tektutorialshub.com/ads.txt,True,-,
+https://opinion.inquirer.net,-,https://opinion.inquirer.net,https://opinion.inquirer.net/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://ww6.readneverland.com,-,https://ww6.readneverland.com,https://ww6.readneverland.com/ads.txt,True,-,
+https://farmville2free.com,-,https://farmville2free.com,https://farmville2free.com/ads.txt,True,-,
+https://fresherpost.com,-,https://fresherpost.com,https://fresherpost.com/ads.txt,True,-,
+https://pastebin.com,-,https://pastebin.com,https://pastebin.com/ads.txt,True,-,
+https://newpakweb.com,-,https://newpakweb.com,https://newpakweb.com/ads.txt,True,-,
+https://addiyar.com,-,https://addiyar.com,https://addiyar.com/ads.txt,True,-,
+https://mzamin.com,-,https://mzamin.com,https://mzamin.com/ads.txt,True,-,
+https://w1.jjk0.com,-,-,-,-,-,NA - 403
+https://greatandhra.com,-,https://greatandhra.com,https://greatandhra.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://champw.com,-,https://champw.com,https://champw.com/ads.txt,True,-,
+https://tvpost.cc,-,https://tvpost.cc,https://tvpost.cc/ads.txt,True,-,
+https://tochato.com,-,https://tochato.com,https://tochato.com/ads.txt,True,-,
+https://fosslinux.com,-,https://fosslinux.com,https://fosslinux.com/ads.txt,True,-,
+https://ww3.readchainsawman.com,-,https://ww3.readchainsawman.com,https://ww3.readchainsawman.com/ads.txt,True,-,
+https://my.evilmilk.com,-,https://my.evilmilk.com,https://my.evilmilk.com/ads.txt,True,-,
+https://voz.vn,-,https://voz.vn,https://voz.vn/ads.txt,True,-,
+https://controllerstech.com,-,https://controllerstech.com,https://controllerstech.com/ads.txt,True,-,
+https://tuberipper.com,-,https://tuberipper.com,https://tuberipper.com/ads.txt,True,-,
+https://scientecheasy.com,-,-,-,-,-,2 lines only
+https://autofaucet.dutchycorp.space,-,https://autofaucet.dutchycorp.space,https://autofaucet.dutchycorp.space/ads.txt,True,-,
+https://videosthatsuck.com,-,https://videosthatsuck.com,https://videosthatsuck.com/ads.txt,True,-,
+https://homeandlearn.co.uk,-,https://homeandlearn.co.uk,https://homeandlearn.co.uk/ads.txt,True,-,
+https://artoftesting.com,-,https://artoftesting.com,https://artoftesting.com/ads.txt,True,-,
+https://chatiw.com,-,https://chatiw.com,https://chatiw.com/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://clutchpoints.com,-,https://clutchpoints.com,https://clutchpoints.com/ads.txt,True,-,
+https://2sao.vn,-,https://2sao.vn,https://2sao.vn/ads.txt,True,-,
+https://vikatan.com,-,https://vikatan.com,https://vikatan.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://tvstanici.net,-,https://tvstanici.net,https://tvstanici.net/ads.txt,True,-,
+https://taiwebs.com,-,https://taiwebs.com,https://taiwebs.com/ads.txt,True,-,
+https://vietnamnet.vn,-,https://vietnamnet.vn,https://vietnamnet.vn/ads.txt,True,-,
+https://hawtcelebs.com,-,https://hawtcelebs.com,https://hawtcelebs.com/ads.txt,True,-,
+https://thesportsupa.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='thesportsupa.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35c1f42e0>: Failed to resolve 'thesportsupa.com' ([Errno -3] Temporary failure in name resolution)""))"
+https://usa.inquirer.net,-,-,-,-,-,NA - 403
+https://inquirer.net,-,-,-,-,-,NA - 403
+https://men.wikifeet.com,-,-,-,-,-,2 lines only
+https://liilas.com,-,https://liilas.com,https://liilas.com/ads.txt,True,-,
+https://oldgameshelf.com,-,https://oldgameshelf.com,https://oldgameshelf.com/ads.txt,True,-,
+https://nationmaster.com,-,https://nationmaster.com,https://nationmaster.com/ads.txt,True,-,
+https://whitepages.com,-,https://whitepages.com,https://whitepages.com/ads.txt,True,-,
+https://grammar-monster.com,-,https://grammar-monster.com,https://grammar-monster.com/ads.txt,True,-,
+https://modilimitado.io,-,https://modilimitado.io,https://modilimitado.io/ads.txt,True,"theaudiencestreet.com ,323-b5666 ,DIRECT ,20e30b2ae1f670f2",
+https://tvnation.me,-,https://tvnation.me,https://tvnation.me/ads.txt,True,-,
+https://modyolo.com,-,https://modyolo.com,https://modyolo.com/ads.txt,True,-,
+https://worshipchords.net,-,https://worshipchords.net,https://worshipchords.net/ads.txt,True,-,
+https://homeworklib.com,-,https://homeworklib.com,https://homeworklib.com/ads.txt,True,-,
+https://lankadeepa.lk,-,https://lankadeepa.lk,https://lankadeepa.lk/ads.txt,True,-,
+https://livemint.com,-,https://livemint.com,https://livemint.com/ads.txt,True,"theaudiencestreet.com ,323-b5673 ,DIRECT ,20e30b2ae1f670f2",
+https://hiphoplately.com,-,https://hiphoplately.com,https://hiphoplately.com/ads.txt,True,-,
+https://speldome.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='speldome.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff35c1f6020>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
+https://yoshare.net,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='yoshare.net', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35c1f5e70>: Failed to resolve 'yoshare.net' ([Errno -3] Temporary failure in name resolution)""))"
+https://statisticstimes.com,-,https://statisticstimes.com,https://statisticstimes.com/ads.txt,True,-,
+https://8bgames.com,-,https://8bgames.com,https://8bgames.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT",
+https://linecad.com,-,https://linecad.com,https://linecad.com/ads.txt,True,-,
+https://lebanonfiles.com,-,https://lebanonfiles.com,https://lebanonfiles.com/ads.txt,True,-,
+https://tecadmin.net,-,https://tecadmin.net,https://tecadmin.net/ads.txt,True,-,
+https://techloky.com,-,https://techloky.com,https://techloky.com/ads.txt,True,-,
+https://amadershomoy.com,-,https://amadershomoy.com,https://amadershomoy.com/ads.txt,True,-,
+https://jagran.com,-,https://jagran.com,https://jagran.com/ads.txt,True,-,
+https://dalechatea.me,-,https://dalechatea.me,https://dalechatea.me/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://wikifeet.com,-,-,-,-,-,2 lines only
+https://politizoom.com,-,https://politizoom.com,https://politizoom.com/ads.txt,True,"theaudiencestreet.com,TAS-703,RESELLER",
+https://aspsnippets.com,-,https://aspsnippets.com,https://aspsnippets.com/ads.txt,True,-,
+https://wowescape.com,-,https://wowescape.com,https://wowescape.com/ads.txt,True,-,
+https://cinema.vikatan.com,-,https://cinema.vikatan.com,https://cinema.vikatan.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://english.mathrubhumi.com,-,https://english.mathrubhumi.com,https://english.mathrubhumi.com/ads.txt,True,"theaudiencestreet.com,323-b5685,DIRECT,20e30b2ae1f670f2",
+https://game-maps.com,-,https://game-maps.com,https://game-maps.com/ads.txt,True,-,
+https://biowikis.com,-,https://biowikis.com,https://biowikis.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://javainuse.com,-,https://javainuse.com,https://javainuse.com/ads.txt,True,-,
+https://toolzu.com,-,https://toolzu.com,https://toolzu.com/ads.txt,True,-,
+https://srbin.info,-,https://srbin.info,https://srbin.info/ads.txt,True,-,
+https://cprogramming.com,-,-,-,-,-,Text content not found
+https://teachmelife.net,-,https://teachmelife.net,https://teachmelife.net/ads.txt,True,-,
+https://learnopengl.com,-,https://learnopengl.com,https://learnopengl.com/ads.txt,True,-,
+https://accountingformanagement.org,-,https://accountingformanagement.org,https://accountingformanagement.org/ads.txt,True,-,
+https://english.jagran.com,-,https://english.jagran.com,https://english.jagran.com/ads.txt,True,-,
+https://sports.inquirer.net,-,https://sports.inquirer.net,https://sports.inquirer.net/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://onlinegdb.com,-,https://onlinegdb.com,https://onlinegdb.com/ads.txt,True,-,
+https://framed.wtf,-,https://framed.wtf,https://framed.wtf/ads.txt,True,-,
+https://lebanon24.com,-,https://lebanon24.com,https://lebanon24.com/ads.txt,True,-,
+https://m.teenidols4you.com,-,https://m.teenidols4you.com,https://m.teenidols4you.com/ads.txt,True,-,
+https://animationscreencaps.com,-,https://animationscreencaps.com,https://animationscreencaps.com/ads.txt,True,-,
+https://deadshot.io,-,https://deadshot.io,https://deadshot.io/ads.txt,True,-,
+https://vimbuzz.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='vimbuzz.com', port=443): Read timed out. (read timeout=2)"
+https://deccanchronicle.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='www.deccanchronicle.com', port=443): Read timed out. (read timeout=2)"
+https://en.shrinke.me,-,https://en.shrinke.me,https://en.shrinke.me/ads.txt,True,-,
+https://politicalflare.com,-,https://politicalflare.com,https://politicalflare.com/ads.txt,True,-,
+https://kirka.io,-,https://kirka.io,https://kirka.io/ads.txt,True,-,
+https://imgbin.com,-,https://imgbin.com,https://imgbin.com/ads.txt,True,-,
+https://leadership.ng,-,https://leadership.ng,https://leadership.ng/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://joblo.com,-,https://joblo.com,https://joblo.com/ads.txt,True,-,
+https://playonlinedicegames.com,-,https://playonlinedicegames.com,https://playonlinedicegames.com/ads.txt,True,-,
+https://fightmatrix.com,-,https://fightmatrix.com,https://fightmatrix.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, RESELLER, 20e30b2ae1f670f2",
+https://integral-calculator.com,-,https://integral-calculator.com,https://integral-calculator.com/ads.txt,True,-,
+https://bodyheightweight.com,-,https://bodyheightweight.com,https://bodyheightweight.com/ads.txt,True,-,
+https://onelinefun.com,-,https://onelinefun.com,https://onelinefun.com/ads.txt,True,-,
+https://sudokuspoiler.com,-,https://sudokuspoiler.com,https://sudokuspoiler.com/ads.txt,True,-,
+https://firstbollynews.info,-,https://firstbollynews.info,https://firstbollynews.info/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, TAS-703, RESELLER",
+https://bigescapegames.com,-,https://bigescapegames.com,https://bigescapegames.com/ads.txt,True,-,
+https://concretepage.com,-,https://concretepage.com,https://concretepage.com/ads.txt,True,-,
+https://ww3.readvinlandsaga.com,-,https://ww3.readvinlandsaga.com,https://ww3.readvinlandsaga.com/ads.txt,True,-,
+https://pop.inquirer.net,-,https://pop.inquirer.net,https://pop.inquirer.net/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://newsable.asianetnews.com,-,https://newsable.asianetnews.com,https://newsable.asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://inews.id,-,https://inews.id,https://inews.id/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://nanoreview.net,-,https://nanoreview.net,https://nanoreview.net/ads.txt,True,-,
+https://planetnews.com,-,https://planetnews.com,https://planetnews.com/ads.txt,True,-,
+https://lusakatimes.com,-,https://lusakatimes.com,https://lusakatimes.com/ads.txt,True,-,
+https://game24h.vn,-,https://game24h.vn,https://game24h.vn/ads.txt,True,-,
+https://wikimili.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='wikimili.com', port=443): Read timed out. (read timeout=2)"
+https://dailytrust.com,-,-,-,-,-,Text content not found
+https://atozmath.com,-,https://atozmath.com,https://atozmath.com/ads.txt,True,-,
+https://linksly.co,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='linksly.co', port=443): Read timed out. (read timeout=2)"
+https://quizexpo.com,-,https://quizexpo.com,https://quizexpo.com/ads.txt,True,-,
+https://marketing91.com,-,https://marketing91.com,https://marketing91.com/ads.txt,True,-,
+https://panorama.com.al,-,https://panorama.com.al,https://panorama.com.al/ads.txt,True,-,
+https://microcontrollerslab.com,-,https://microcontrollerslab.com,https://microcontrollerslab.com/ads.txt,True,-,
+https://inflact.com,-,https://inflact.com,https://inflact.com/ads.txt,True,-,
+https://orangetractortalks.com,-,https://orangetractortalks.com,https://orangetractortalks.com/ads.txt,True,-,
+https://thesurfersview.com,-,https://thesurfersview.com,https://thesurfersview.com/ads.txt,True,-,
+https://theitbros.com,-,-,-,-,-,NA - 202
+https://koimoi.com,-,https://koimoi.com,https://koimoi.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, RESELLER, 20e30b2ae1f670f2",
+https://greysanatomyfans.com,-,https://greysanatomyfans.com,https://greysanatomyfans.com/ads.txt,True,-,
+https://telugu.gulte.com,-,https://telugu.gulte.com,https://telugu.gulte.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, RESELLER, 20e30b2ae1f670f2",
+https://gameforge.com,-,https://gameforge.com,https://gameforge.com/ads.txt,True,-,
+https://news.sportsnest.co,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='news.sportsnest.co', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35d841a20>: Failed to resolve 'news.sportsnest.co' ([Errno -2] Name or service not known)""))"
+https://firstsportz.com,-,https://firstsportz.com,https://firstsportz.com/ads.txt,True,-,
+https://richup.io,-,https://richup.io,https://richup.io/ads.txt,True,-,
+https://lajmifundit.al,-,https://lajmifundit.al,https://lajmifundit.al/ads.txt,True,-,
+https://gotceleb.com,-,-,-,-,-,NA - 521
+https://tribuneindia.com,-,https://tribuneindia.com,https://tribuneindia.com/ads.txt,True,"theaudiencestreet.com, 1183-fb, Reseller, PGAO82RY102; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, Reseller, PGAO82RY102",
+https://derivative-calculator.net,-,https://derivative-calculator.net,https://derivative-calculator.net/ads.txt,True,-,
+https://cyberdefinitions.com,-,https://cyberdefinitions.com,https://cyberdefinitions.com/ads.txt,True,-,
+https://cbom.atozmath.com,-,https://cbom.atozmath.com,https://cbom.atozmath.com/ads.txt,True,-,
+https://m.apkshub.com,-,https://m.apkshub.com,https://m.apkshub.com/ads.txt,True,-,
+https://sketchok.com,-,https://sketchok.com,https://sketchok.com/ads.txt,True,-,
+https://dnbstories.com,-,https://dnbstories.com,https://dnbstories.com/ads.txt,True,-,
+https://nairobiwire.com,-,https://nairobiwire.com,https://nairobiwire.com/ads.txt,True,-,
+https://sportnews.to,-,https://sportnews.to,https://sportnews.to/ads.txt,True,-,
+https://javatechonline.com,-,https://javatechonline.com,https://javatechonline.com/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://nairametrics.com,-,https://nairametrics.com,https://nairametrics.com/ads.txt,True,-,
+https://thecustomdroid.com,-,-,-,-,-,1 lines only
+https://familytron.com,-,-,-,-,-,1 lines only
+https://omnitalk.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='omnitalk.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1017)')))"
+https://riviera-maya-news.com,-,https://riviera-maya-news.com,https://riviera-maya-news.com/ads.txt,True,-,
+https://apkmody.com,-,https://apkmody.com,https://apkmody.com/ads.txt,True,-,
+https://dailynayadiganta.com,-,https://dailynayadiganta.com,https://dailynayadiganta.com/ads.txt,True,-,
+https://cpsgames.org,-,https://cpsgames.org,https://cpsgames.org/ads.txt,True,-,
+https://astrologyfutureeye.com,-,https://astrologyfutureeye.com,https://astrologyfutureeye.com/ads.txt,True,-,
+https://m.bcbay.com,-,-,-,-,-,Ads.txt Not Found
+https://globalnation.inquirer.net,-,https://globalnation.inquirer.net,https://globalnation.inquirer.net/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://businer.com,-,https://businer.com,https://businer.com/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://entertainment.inquirer.net,-,-,-,-,-,NA - 403
+https://njbeachcams.com,-,https://njbeachcams.com,https://njbeachcams.com/ads.txt,True,-,
+https://business.inquirer.net,-,-,-,-,-,NA - 403
+https://ru.taiwebs.com,-,https://ru.taiwebs.com,https://ru.taiwebs.com/ads.txt,True,-,
+https://firmwarefile.com,-,https://firmwarefile.com,https://firmwarefile.com/ads.txt,True,-,
+https://favpng.com,-,https://favpng.com,https://favpng.com/ads.txt,True,-,
+https://dailyinqilab.com,-,https://dailyinqilab.com,https://dailyinqilab.com/ads.txt,True,-,
+https://newspaper.mathrubhumi.com,-,https://newspaper.mathrubhumi.com,https://newspaper.mathrubhumi.com/ads.txt,True,"theaudiencestreet.com,323-b5685,DIRECT,20e30b2ae1f670f2",
+https://madhyamam.com,-,https://madhyamam.com,https://madhyamam.com/ads.txt,True,-,
+https://mrproblogger.com,-,-,-,-,-,NA - 403
+https://yesichat.com,-,https://yesichat.com,https://yesichat.com/ads.txt,True,-,
+https://enewstree.com,-,https://enewstree.com,https://enewstree.com/ads.txt,True,-,
+https://snaptik.app,-,https://snaptik.app,https://snaptik.app/ads.txt,True,-,
+https://simple-circuit.com,-,https://simple-circuit.com,https://simple-circuit.com/ads.txt,True,-,
+https://apkshub.com,-,https://apkshub.com,https://apkshub.com/ads.txt,True,-,
+https://wanderera.com,-,https://wanderera.com,https://wanderera.com/ads.txt,True,-,
+https://onlinesologames.com,-,https://onlinesologames.com,https://onlinesologames.com/ads.txt,True,-,
+https://ko.taiwebs.com,-,https://ko.taiwebs.com,https://ko.taiwebs.com/ads.txt,True,-,
+https://plo.vn,-,https://plo.vn,https://plo.vn/ads.txt,True,-,
+https://br0wsers.com,-,https://br0wsers.com,https://br0wsers.com/ads.txt,True,-,
+https://how2shout.com,-,https://how2shout.com,https://how2shout.com/ads.txt,True,-,
+https://sports.vikatan.com,-,https://sports.vikatan.com,https://sports.vikatan.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://puntlandpost.net,-,https://puntlandpost.net,https://puntlandpost.net/ads.txt,True,-,
+https://m.apksum.com,-,https://m.apksum.com,https://m.apksum.com/ads.txt,True,-,
+https://realmadryt.pl,-,https://realmadryt.pl,https://realmadryt.pl/ads.txt,True,-,
+https://raialyoum.com,-,https://raialyoum.com,https://raialyoum.com/ads.txt,True,-,
+https://telugu.asianetnews.com,-,https://telugu.asianetnews.com,https://telugu.asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://pdfread.net,-,https://pdfread.net,https://pdfread.net/ads.txt,True,-,
+https://linux.how2shout.com,-,https://linux.how2shout.com,https://linux.how2shout.com/ads.txt,True,-,
+https://ggmeo.com,-,-,-,-,-,NA - 403
+https://liveuamap.com,-,-,-,-,-,NA - 403
+https://games2rule.com,-,https://games2rule.com,https://games2rule.com/ads.txt,True,-,
+https://thenextdroid.com,-,https://thenextdroid.com,https://thenextdroid.com/ads.txt,True,-,
+https://plugins4free.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='plugins4free.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))"
+https://bankier.pl,-,https://bankier.pl,https://bankier.pl/ads.txt,True,-,
+https://mobilerdx.com,-,https://mobilerdx.com,https://mobilerdx.com/ads.txt,True,-,
+https://cardekho.com,-,https://cardekho.com,https://cardekho.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, 323-b5685, RESELLER, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://marketingtutor.net,-,https://marketingtutor.net,https://marketingtutor.net/ads.txt,True,-,
+https://israelpalestine.liveuamap.com,-,-,-,-,-,NA - 403
+https://cyberithub.com,-,https://cyberithub.com,https://cyberithub.com/ads.txt,True,-,
+https://interaksyon.philstar.com,-,https://interaksyon.philstar.com,https://interaksyon.philstar.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://sacnilk.com,-,https://sacnilk.com,https://sacnilk.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT",
+https://toptensarabic.com,-,https://toptensarabic.com,https://toptensarabic.com/ads.txt,True,-,
+https://helis.com,-,https://helis.com,https://helis.com/ads.txt,True,-,
+https://go.linksly.co,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='go.linksly.co', port=443): Read timed out. (read timeout=2)"
+https://wowbiz.ro,-,https://wowbiz.ro,https://wowbiz.ro/ads.txt,True,-,
+https://iedunote.com,-,https://iedunote.com,https://iedunote.com/ads.txt,True,-,
+https://pnghut.com,-,https://pnghut.com,https://pnghut.com/ads.txt,True,-,
+https://chatarg.com,-,https://chatarg.com,https://chatarg.com/ads.txt,True,"theaudiencestreet.com, TAS-703, RESELLER",
+https://alfapress.al,-,https://alfapress.al,https://alfapress.al/ads.txt,True,-,
+https://amgelescape.com,-,https://amgelescape.com,https://amgelescape.com/ads.txt,True,-,
+https://games2mad.com,-,https://games2mad.com,https://games2mad.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT",
+https://grihalakshmi.mathrubhumi.com,-,https://grihalakshmi.mathrubhumi.com,https://grihalakshmi.mathrubhumi.com/ads.txt,True,"theaudiencestreet.com,323-b5685,DIRECT,20e30b2ae1f670f2",
+https://asianetnews.com,-,https://asianetnews.com,https://asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://apksum.com,-,https://apksum.com,https://apksum.com/ads.txt,True,-,
+https://samequizy.pl,-,https://samequizy.pl,https://samequizy.pl/ads.txt,True,"theaudiencestreet.com, n19t95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://dayniiile.com,-,https://dayniiile.com,https://dayniiile.com/ads.txt,True,-,
+https://manilatimes.net,-,https://manilatimes.net,https://manilatimes.net/ads.txt,True,-,
+https://glamourbiz.com,-,https://glamourbiz.com,https://glamourbiz.com/ads.txt,True,-,
+https://coffeenatics.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='coffeenatics.com', port=443): Read timed out. (read timeout=2)"
+https://guitarhabits.com,-,https://guitarhabits.com,https://guitarhabits.com/ads.txt,True,-,
+https://hindustantimes.com,-,https://hindustantimes.com,https://hindustantimes.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com ,323-b5673 ,DIRECT ,20e30b2ae1f670f2; theaudiencestreet.com, TAS-703, RESELLER",
+https://bandera.inquirer.net,-,-,-,-,-,NA - 403
+https://bikeaton.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='bikeaton.com', port=443): Read timed out. (read timeout=2)"
+https://stirilekanald.ro,-,https://stirilekanald.ro,https://stirilekanald.ro/ads.txt,True,-,
+https://cna.al,-,https://cna.al,https://cna.al/ads.txt,True,-,
+https://khmerchords.com,-,https://khmerchords.com,https://khmerchords.com/ads.txt,True,-,
+https://ibloggospel.com,-,https://ibloggospel.com,https://ibloggospel.com/ads.txt,True,-,
+https://online.yesichat.com,-,-,-,-,-,Ads.txt Not Found
+https://typingme.com,-,https://typingme.com,https://typingme.com/ads.txt,True,-,
+https://news.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://sport.detik.com,-,https://sport.detik.com,https://sport.detik.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5673, DIRECT, 20e30b2ae1f670f2",
+https://click.ro,-,https://click.ro,https://click.ro/ads.txt,True,-,
+https://rencontre-ados.net,-,https://rencontre-ados.net,https://rencontre-ados.net/ads.txt,True,-,
+https://v1.totalsporteks.net,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='v1.totalsporteks.net', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35d85a260>: Failed to resolve 'v1.totalsporteks.net' ([Errno -2] Name or service not known)""))"
+https://kanald.ro,-,https://kanald.ro,https://kanald.ro/ads.txt,True,-,
+https://cebudailynews.inquirer.net,-,-,-,-,-,NA - 403
+https://fcbarca.com,-,https://fcbarca.com,https://fcbarca.com/ads.txt,False,"theaudiencestreet.com, n19t95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://ibb.co.com,-,-,-,-,-,Empty response
+https://jamilacuisine.ro,-,https://jamilacuisine.ro,https://jamilacuisine.ro/ads.txt,True,-,
+https://spin.ph,-,https://spin.ph,https://spin.ph/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://detik.com,-,https://detik.com,https://detik.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5673, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://thesummitexpress.com,-,https://thesummitexpress.com,https://thesummitexpress.com/ads.txt,True,-,
+https://m.bankier.pl,-,https://m.bankier.pl,https://m.bankier.pl/ads.txt,True,-,
+https://infonet.vietnamnet.vn,-,https://infonet.vietnamnet.vn,https://infonet.vietnamnet.vn/ads.txt,True,-,
+https://webyempresas.com,-,https://webyempresas.com,https://webyempresas.com/ads.txt,True,-,
+https://ebadta.hu,-,https://ebadta.hu,https://ebadta.hu/ads.txt,True,-,
+https://codingbroz.com,-,https://codingbroz.com,https://codingbroz.com/ads.txt,True,-,
+https://mail.worshipchords.net,-,https://mail.worshipchords.net,https://mail.worshipchords.net/ads.txt,True,-,
+https://katadata.co.id,-,https://katadata.co.id,https://katadata.co.id/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://cazin.net,-,https://cazin.net,https://cazin.net/ads.txt,True,-,
+https://boop.pl,-,https://boop.pl,https://boop.pl/ads.txt,True,-,
+https://bola.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://freepreset.net,-,https://freepreset.net,https://freepreset.net/ads.txt,True,-,
+https://chatgptdemo.info,-,https://chatgptdemo.info,https://chatgptdemo.info/ads.txt,True,-,
+https://nevcoins.club,-,https://nevcoins.club,https://nevcoins.club/ads.txt,True,-,
+https://berita.99.co,-,-,-,-,-,NA - 410
+https://clasificacionde.org,-,https://clasificacionde.org,https://clasificacionde.org/ads.txt,True,-,
+https://deutscher-chat.de,-,https://deutscher-chat.de,https://deutscher-chat.de/ads.txt,True,-,
+https://fr.taiwebs.com,-,https://fr.taiwebs.com,https://fr.taiwebs.com/ads.txt,True,-,
+https://hot.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://freizeit-haus-und-garten.de,-,https://freizeit-haus-und-garten.de,https://freizeit-haus-und-garten.de/ads.txt,True,-,
+https://finance.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://oto.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://international.sindonews.com,-,-,-,-,-,Text content not found
+https://br.taiwebs.com,-,https://br.taiwebs.com,https://br.taiwebs.com/ads.txt,True,-,
+https://ww8.jjk0.com,-,-,-,-,-,NA - 403
+https://jjk0.com,-,-,-,-,-,NA - 403
+https://turfpronos.fr,-,-,-,-,-,1 lines only
+https://syria.liveuamap.com,-,-,-,-,-,NA - 403
+https://chatroom2000.de,-,-,-,-,-,NA - 403
+https://ja.taiwebs.com,-,https://ja.taiwebs.com,https://ja.taiwebs.com/ads.txt,True,-,
+https://kalam.sindonews.com,-,-,-,-,-,Text content not found
+https://vocentar.com,-,https://vocentar.com,https://vocentar.com/ads.txt,True,-,
+https://rugugu.jp,-,https://rugugu.jp,https://rugugu.jp/ads.txt,True,-,
+https://de.taiwebs.com,-,https://de.taiwebs.com,https://de.taiwebs.com/ads.txt,True,-,
+https://dramafansubs.net,-,https://dramafansubs.net,https://dramafansubs.net/ads.txt,True,-,
+https://rebeladmin.com,-,-,-,-,-,2 lines only
+https://solliyadi.vikatan.com,-,-,-,-,-,Text content not found
+https://informed.hu,-,https://informed.hu,https://informed.hu/ads.txt,True,-,
+https://travel.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://celebrity.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://bestreamsports.org,-,-,-,-,-,1 lines only
+https://wolipop.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://motorguia.net,-,https://motorguia.net,https://motorguia.net/ads.txt,True,-,
+https://tamil.behindtalkies.com,-,https://tamil.behindtalkies.com,https://tamil.behindtalkies.com/ads.txt,True,-,
+https://economy.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://aktual24.ro,-,https://aktual24.ro,https://aktual24.ro/ads.txt,True,-,
+https://nativesurge.info,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='nativesurge.info', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nativesurge.info'. (_ssl.c:1017)"")))"
+https://suara.com,-,https://suara.com,https://suara.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://health.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://nasional.sindonews.com,-,-,-,-,-,Text content not found
+https://m.game24h.vn,-,https://m.game24h.vn,https://m.game24h.vn/ads.txt,True,-,
+https://timesnowhindi.com,-,https://timesnowhindi.com,https://timesnowhindi.com/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://ru.apkshub.com,-,https://ru.apkshub.com,https://ru.apkshub.com/ads.txt,True,-,
+https://inet.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://juegosfriv2015.com,-,https://juegosfriv2015.com,https://juegosfriv2015.com/ads.txt,True,-,
+https://okezone.com,-,-,-,-,-,Text content not found
+https://snapinsta.app,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='snapinsta.app', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35d8cecb0>: Failed to resolve 'snapinsta.app' ([Errno -3] Temporary failure in name resolution)""))"
+https://hausa.leadership.ng,-,https://hausa.leadership.ng,https://hausa.leadership.ng/ads.txt,True,-,
+https://caucasus.liveuamap.com,-,-,-,-,-,NA - 403
+https://sportti.com,-,https://sportti.com,https://sportti.com/ads.txt,True,-,
+https://sports.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://lifestyle.sindonews.com,-,-,-,-,-,Text content not found
+https://qatools.artoftesting.com,-,-,-,-,-,Text content not found
+pastebin.com.,-,-,-,-,-,Invalid domain
+https://carisinyal.com,-,https://carisinyal.com,https://carisinyal.com/ads.txt,True,-,
+https://beta.vikatan.com,-,https://beta.vikatan.com,https://beta.vikatan.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://ekbis.sindonews.com,-,-,-,-,-,Text content not found
+https://iraq.liveuamap.com,-,-,-,-,-,NA - 403
+https://forum.motorguia.net,-,https://forum.motorguia.net,https://forum.motorguia.net/ads.txt,True,-,
+https://thegentleclass.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='thegentleclass.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35d8ceda0>: Failed to resolve 'thegentleclass.com' ([Errno -3] Temporary failure in name resolution)""))"
+https://aktuelle-auto-news.de,-,https://aktuelle-auto-news.de,https://aktuelle-auto-news.de/ads.txt,True,-,
+https://es.apkshub.com,-,https://es.apkshub.com,https://es.apkshub.com/ads.txt,True,-,
+https://food.detik.com,-,-,-,-,-,Ads.txt Not Found
+https://iran.liveuamap.com,-,-,-,-,-,NA - 403
+https://dutchycorp.ovh,-,https://dutchycorp.ovh,https://dutchycorp.ovh/ads.txt,True,-,
+https://movies.dutchycorp.space,-,https://movies.dutchycorp.space,https://movies.dutchycorp.space/ads.txt,True,-,
+https://playtrucos.com,-,https://playtrucos.com,https://playtrucos.com/ads.txt,True,-,
+https://sports.sindonews.com,-,-,-,-,-,Text content not found
+https://technology.inquirer.net,-,-,-,-,-,NA - 403
+https://th.apksum.com,-,https://th.apksum.com,https://th.apksum.com/ads.txt,True,-,
+https://sindonews.com,-,https://sindonews.com,https://sindonews.com/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://lifestyle.inquirer.net,-,-,-,-,-,NA - 403
+https://middleeast.lankadeepa.lk,-,https://middleeast.lankadeepa.lk,https://middleeast.lankadeepa.lk/ads.txt,True,-,
+https://russia.liveuamap.com,-,-,-,-,-,NA - 403
+https://kfetele.ro,-,https://kfetele.ro,https://kfetele.ro/ads.txt,True,-,
+https://daerah.sindonews.com,-,-,-,-,-,Text content not found
+https://kannada.asianetnews.com,-,https://kannada.asianetnews.com,https://kannada.asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://ja.apkshub.com,-,https://ja.apkshub.com,https://ja.apkshub.com/ads.txt,True,-,
+https://liquidahorros.com.mx,-,https://liquidahorros.com.mx,https://liquidahorros.com.mx/ads.txt,True,-,
+https://tamil.asianetnews.com,-,https://tamil.asianetnews.com,https://tamil.asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://pilio.idv.tw,-,https://pilio.idv.tw,https://pilio.idv.tw/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, TAS-703, RESELLER",
+https://minnesota.liveuamap.com,-,-,-,-,-,NA - 403
+https://ww6.jjk0.com,-,-,-,-,-,NA - 403
+https://washington.liveuamap.com,-,-,-,-,-,NA - 403
+https://blog.eat-list.fr,-,https://blog.eat-list.fr,https://blog.eat-list.fr/ads.txt,True,-,
+https://it.apkshub.com,-,https://it.apkshub.com,https://it.apkshub.com/ads.txt,True,-,
+https://lifestyle.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://man.wikifeet.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='man.wikifeet.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7ff35c831ae0>: Failed to resolve 'man.wikifeet.com' ([Errno -2] Name or service not known)""))"
+https://massachusetts.liveuamap.com,-,-,-,-,-,NA - 403
+https://oregon.liveuamap.com,-,-,-,-,-,NA - 403
+https://techno.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://pipeflowcalculations.com,-,https://pipeflowcalculations.com,https://pipeflowcalculations.com/ads.txt,True,-,
+https://tw.apkshub.com,-,https://tw.apkshub.com,https://tw.apkshub.com/ads.txt,True,-,
+https://sudan.liveuamap.com,-,-,-,-,-,NA - 403
+https://health.liveuamap.com,-,-,-,-,-,NA - 403
+https://faq.cprogramming.com,-,-,-,-,-,Ads.txt Not Found
+https://wap.lebanonfiles.com,-,https://wap.lebanonfiles.com,https://wap.lebanonfiles.com/ads.txt,True,-,
+https://eat-list.fr,-,https://eat-list.fr,https://eat-list.fr/ads.txt,True,-,
+https://sains.sindonews.com,-,-,-,-,-,Text content not found
+https://lebanon.liveuamap.com,-,-,-,-,-,NA - 403
+https://usprotests.liveuamap.com,-,-,-,-,-,NA - 403
+https://behindtalkies.com,-,https://behindtalkies.com,https://behindtalkies.com/ads.txt,True,-,
+https://readmha.com,-,https://readmha.com,https://readmha.com/ads.txt,True,-,
+https://hezbollah.liveuamap.com,-,-,-,-,-,NA - 403
+https://pt.apksum.com,-,https://pt.apksum.com,https://pt.apksum.com/ads.txt,True,-,
+https://readneverland.com,-,https://readneverland.com,https://readneverland.com/ads.txt,True,-,
+https://newyork.liveuamap.com,-,-,-,-,-,NA - 403
+https://turkey.liveuamap.com,-,-,-,-,-,NA - 403
+https://georgia.liveuamap.com,-,-,-,-,-,NA - 403
+https://dubznetwork.com,-,https://dubznetwork.com,https://dubznetwork.com/ads.txt,True,"theaudiencestreet.com,TAS-703,RESELLER",
+https://bali.inews.id,-,https://bali.inews.id,https://bali.inews.id/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://montana.liveuamap.com,-,-,-,-,-,NA - 403
+https://kansas.liveuamap.com,-,-,-,-,-,NA - 403
+https://edukasi.sindonews.com,-,-,-,-,-,Text content not found
+https://calculadora-de-derivadas.com,-,https://calculadora-de-derivadas.com,https://calculadora-de-derivadas.com/ads.txt,True,-,
+https://giamngheobenvung.vietnamnet.vn,-,-,-,-,-,0 lines only
+https://travel.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://arizona.liveuamap.com,-,-,-,-,-,NA - 403
+https://radioimpuls.ro,-,https://radioimpuls.ro,https://radioimpuls.ro/ads.txt,True,-,
+https://ukraine.liveuamap.com,-,-,-,-,-,NA - 403
+https://belarus.liveuamap.com,-,-,-,-,-,NA - 403
+https://paivanlehti.fi,-,https://paivanlehti.fi,https://paivanlehti.fi/ads.txt,True,-,
+https://ww2.readvinlandsaga.com,-,https://ww2.readvinlandsaga.com,https://ww2.readvinlandsaga.com/ads.txt,True,-,
+https://pop3.fcbarca.com,-,https://pop3.fcbarca.com,https://pop3.fcbarca.com/ads.txt,True,"theaudiencestreet.com, n19t95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER; theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://pennsylvania.liveuamap.com,-,-,-,-,-,NA - 403
+2sao.vn.,-,-,-,-,-,Invalid domain
+https://en.apkshub.com,-,https://en.apkshub.com,https://en.apkshub.com/ads.txt,True,-,
+https://video.okezone.com,-,-,-,-,-,Ads.txt Not Found
+https://freesolana.top,-,https://freesolana.top,https://freesolana.top/ads.txt,True,-,
+https://archives.mathrubhumi.com,-,https://archives.mathrubhumi.com,https://archives.mathrubhumi.com/ads.txt,True,"theaudiencestreet.com,323-b5685,DIRECT,20e30b2ae1f670f2",
+https://de.apkshub.com,-,https://de.apkshub.com,https://de.apkshub.com/ads.txt,True,-,
+https://otomotif.sindonews.com,-,-,-,-,-,Text content not found
+https://koreas.liveuamap.com,-,-,-,-,-,NA - 403
+https://ftp.lebanonfiles.com,-,https://ftp.lebanonfiles.com,https://ftp.lebanonfiles.com/ads.txt,True,-,
+https://colorado.liveuamap.com,-,-,-,-,-,NA - 403
+https://cn.apksum.com,-,https://cn.apksum.com,https://cn.apksum.com/ads.txt,True,-,
+https://nebraska.liveuamap.com,-,-,-,-,-,NA - 403
+https://dc.liveuamap.com,-,-,-,-,-,NA - 403
+https://de.apksum.com,-,https://de.apksum.com,https://de.apksum.com/ads.txt,True,-,
+https://sahel.liveuamap.com,-,-,-,-,-,NA - 403
+https://asia.liveuamap.com,-,-,-,-,-,NA - 403
+https://war.liveuamap.com,-,-,-,-,-,NA - 403
+https://en.apksum.com,-,https://en.apksum.com,https://en.apksum.com/ads.txt,True,-,
+https://readsololeveling.org,-,https://readsololeveling.org,https://readsololeveling.org/ads.txt,True,"theaudiencestreet.com, 323-b5685, DIRECT, 20e30b2ae1f670f2",
+https://ar.apkshub.com,-,https://ar.apkshub.com,https://ar.apkshub.com/ads.txt,True,-,
+https://jabar.inews.id,-,https://jabar.inews.id,https://jabar.inews.id/ads.txt,True,"theaudiencestreet.com, N19T95, DIRECT; theaudiencestreet.com, 1183-fb, RESELLER",
+https://friv20.org,-,https://friv20.org,https://friv20.org/ads.txt,True,-,
+https://texas.liveuamap.com,-,-,-,-,-,NA - 403
+https://serien-arena.de,-,https://serien-arena.de,https://serien-arena.de/ads.txt,True,"theaudiencestreet.com,TAS-703,RESELLER",
+https://yemen.liveuamap.com,-,-,-,-,-,NA - 403
+https://shrinke.me,-,https://shrinke.me,https://shrinke.me/ads.txt,True,-,
+https://libya.liveuamap.com,-,-,-,-,-,NA - 403
+https://totalsporteks.net,-,-,-,-,-,Text content not found
+https://reise-und-urlaubsziele.de,-,https://reise-und-urlaubsziele.de,https://reise-und-urlaubsziele.de/ads.txt,True,-,
+https://readkaguyasama.com,-,https://readkaguyasama.com,https://readkaguyasama.com/ads.txt,True,-,
+https://hindi.asianetnews.com,-,https://hindi.asianetnews.com,https://hindi.asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://hi.taiwebs.com,-,https://hi.taiwebs.com,https://hi.taiwebs.com/ads.txt,True,-,
+https://bangla.asianetnews.com,-,https://bangla.asianetnews.com,https://bangla.asianetnews.com/ads.txt,True,"theaudiencestreet.com, n19t95, direct; theaudiencestreet.com, 1183-fb, reseller",
+https://readfairytail.com,-,https://readfairytail.com,https://readfairytail.com/ads.txt,True,-,
+https://center7.de,-,https://center7.de,https://center7.de/ads.txt,True,"theaudiencestreet.com,TAS-703,RESELLER",
