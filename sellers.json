@@ -150,7 +150,7 @@
       "domain": "pubnative.net"
     },
     {
-      "seller_id": "92317",
+      "seller_id": "92318",
       "seller_type": "INTERMEDIARY",
       "name": "Verve",
       "domain": "pubnative.net"
@@ -160,12 +160,6 @@
       "domain": "zimad.com",
       "seller_id": "92317",
       "seller_type": "PUBLISHER"
-    },
-    {
-      "seller_id": "92317",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
     }
   ]
 }
