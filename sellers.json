@@ -104,8 +104,8 @@
     {
       "seller_id": "tas-703",
       "seller_type": "PUBLISHER",
-      "name": "Delight Room Co. LTD",
-      "domain": "alar.my"
+      "name": "Playsimple",
+      "domain": "playsimple.in"
     },
     {
       "seller_id": "tas-704",
@@ -142,24 +142,36 @@
       "seller_type": "INTERMEDIARY",
       "name": "Verve",
       "domain": "pubnative.net"
-    },
+    }
     {
-      "seller_id": "92316",
+      "seller_id": "92319",
       "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
+      "name": "Bidmachine",
+      "domain": "bidmachine.io"
     },
     {
-      "seller_id": "92318",
+      "seller_id": "92320",
       "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
+      "name": "Bidmachine",
+      "domain": "bidmachine.io"
     },
     {
-      "name": "Zimad",
-      "domain": "zimad.com",
-      "seller_id": "92317",
-      "seller_type": "PUBLISHER"
+      "seller_id": "92321",
+      "seller_type": "INTERMEDIARY",
+      "name": "Bidmachine",
+      "domain": "bidmachine.io"
+    },
+    {
+      "seller_id": "92322",
+      "seller_type": "INTERMEDIARY",
+      "name": "Bidmachine",
+      "domain": "bidmachine.io"
+    },
+    {
+      "seller_id": "92323",
+      "seller_type": "INTERMEDIARY",
+      "name": "Bidmachine",
+      "domain": "bidmachine.io"
     }
   ]
 }
