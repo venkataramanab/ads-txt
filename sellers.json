@@ -43,61 +43,61 @@
     },
     {
       "seller_id": "TAS-566",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "toplifesavings.com",
       "name": "toplifesavings.com"
     },
     {
       "seller_id": "TAS-567",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "www.topdiscovers.com",
       "name": "www.topdiscovers.com"
     },
     {
       "seller_id": "TAS-568",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "healthyofwealth.com",
       "name": "healthyofwealth.com"
     },
     {
       "seller_id": "TAS-569",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "uspestcontrolservices.com",
       "name": "uspestcontrolservices.com"
     },
     {
       "seller_id": "TAS-570",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "ushealthywatch.com",
       "name": "ushealthywatch.com"
     },
     {
       "seller_id": "TAS-571",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "usasolarhub.com",
       "name": "usasolarhub.com"
     },
     {
       "seller_id": "TAS-572",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "lovewithpets.com",
       "name": "lovewithpets.com"
     },
     {
       "seller_id": "TAS-573",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "localxpert.ushealthywatch.com",
       "name": "localxpert.ushealthywatch.com"
     },
     {
       "seller_id": "TAS-574",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "homeofservices.com",
       "name": "homeofservices.com"
     },
     {
       "seller_id": "TAS-576",
-      "seller_type": "DIRECT",
+      "seller_type": "PUBLISHER",
       "domain": "www.findhealthcares.com",
       "name": "www.findhealthcares.com"
     },
@@ -172,6 +172,12 @@
       "seller_type": "INTERMEDIARY",
       "name": "Bidmachine",
       "domain": "bidmachine.io"
-    }
+    },
+{
+      "seller_id": "tas-706",
+      "seller_type": "PUBLISHER",
+      "domain": "onefootball.com",
+      "name": "Onefootball"
+}
   ]
 }
