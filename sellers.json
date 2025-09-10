@@ -178,6 +178,18 @@
       "seller_type": "PUBLISHER",
       "domain": "onefootball.com",
       "name": "Onefootball"
-}
+},
+{
+      "seller_id": "92316",
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
+    },
+{
+      "seller_id": "92318",
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
+    }
   ]
 }
