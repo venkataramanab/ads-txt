@@ -190,6 +190,12 @@
       "seller_type": "INTERMEDIARY",
       "name": "Verve",
       "domain": "pubnative.net"
-    }
+    },
+{
+    "seller_id": "92317",
+    "seller_type": "PUBLISHER",
+    "name": “Zimad”,
+    "domain": "zimad.com"
+  }
   ]
 }
