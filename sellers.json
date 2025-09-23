@@ -191,16 +191,16 @@
       "name": "Verve",
       "domain": "pubnative.net"
     },
-{
+  {
     "seller_id": "92317",
     "seller_type": "PUBLISHER",
-    "name": “Zimad”,
+    "name": "Zimad",
     "domain": "zimad.com"
-  }
-{
+  },
+ {
     "seller_id": "92319",
     "seller_type": "PUBLISHER",
-    "name": “Reliance Games”,
+    "name": "Reliance Games",
     "domain": "reliancegames.com.com"
   }    
   ]
