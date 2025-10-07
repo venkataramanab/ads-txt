@@ -226,6 +226,25 @@
       "seller_type": "INTERMEDIARY",
       "name": "Display.io",
       "domain": "Display.io"
+    },
+
+  {
+      "seller_id": "92335",
+      "seller_type": "INTERMEDIARY",
+      "name": "Admixer",
+      "domain": "admixer.com"
+    },
+    {
+      "seller_id": "92336",
+      "seller_type": "INTERMEDIARY",
+      "name": "Admixer",
+      "domain": "admixer.com"
+    },
+    {
+      "seller_id": "92337",
+      "seller_type": "INTERMEDIARY",
+      "name": "Admixer",
+      "domain": "admixer.com"
     }
 
   ]
