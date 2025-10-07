@@ -208,7 +208,25 @@
     "seller_type": "PUBLISHER",
     "name": "Zapak Digital Entertainment Ltd",
     "domain": "zapak.com"
-  } 
+  },
+ {
+      "seller_id": "92330",
+      "seller_type": "INTERMEDIARY",
+      "name": "Display.io",
+      "domain": "Display.io"
+    },
+    {
+      "seller_id": "92331",
+      "seller_type": "INTERMEDIARY",
+      "name": "Display.io",
+      "domain": "Display.io"
+    },
+    {
+      "seller_id": "92332",
+      "seller_type": "INTERMEDIARY",
+      "name": "Display.io",
+      "domain": "Display.io"
+    }
 
   ]
 }
