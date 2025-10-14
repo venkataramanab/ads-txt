@@ -17,6 +17,43 @@
       "domain": "pocketfm.com",
       "name": "Pocket FM Corp."
     },
+
+    {
+      "seller_id": "92315",
+      "seller_type": "BOTH",
+      "domain": "uploss.net",
+      "name": "UPLOSS LIMITED"
+    },
+    {
+      "seller_id": "92314",
+      "seller_type": "BOTH",
+      "domain": "learnings.ai",
+      "name": "Learnings Co., Limited"
+    },
+    {
+      "seller_id": "92313",
+      "seller_type": "PUBLISHER",
+      "domain": "bigcakegame.com",
+      "name": "Big Cake Ltd., Inc"
+    },
+    {
+      "seller_id": "92312",
+      "seller_type": "BOTH",
+      "domain": "peoplefun.com",
+      "name": "PeopleFun, Inc."
+    },
+    {
+      "seller_id": "92316",
+      "seller_type": "BOTH",
+      "domain": "oziontech.com",
+      "name": "Ozion"
+    },
+    {
+      "seller_id": "92318",
+      "seller_type": "BOTH",
+      "domain": "gamovation.com",
+      "name": "GamoVation"
+    },
     {
       "seller_id": "N19T95",
       "seller_type": "BOTH",
@@ -245,6 +282,12 @@
       "seller_type": "INTERMEDIARY",
       "name": "Admixer",
       "domain": "admixer.com"
+    },
+    {
+      "seller_id": "82536",
+      "seller_type": "INTERMEDIARY",
+      "name": "Smaato",
+      "domain": "smaato.com"
     }
 
   ]
