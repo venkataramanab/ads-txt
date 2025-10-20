@@ -43,6 +43,12 @@
       "name": "PeopleFun, Inc."
     },
     {
+      "name": "SmartNews",
+      "domain": "smartnews.com",
+      "seller_id": "91431",
+      "seller_type": "PUBLISHER"
+    },
+    {
       "seller_id": "92316",
       "seller_type": "BOTH",
       "domain": "oziontech.com",
