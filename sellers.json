@@ -45,7 +45,7 @@
     {
       "name": "SmartNews",
       "domain": "smartnews.com",
-      "seller_id": "91431",
+      "seller_id": "92331",
       "seller_type": "PUBLISHER"
     },
     {
@@ -186,12 +186,7 @@
       "name": "Verve",
       "domain": "pubnative.net"
     },
-    {
-      "seller_id": "92319",
-      "seller_type": "INTERMEDIARY",
-      "name": "Bidmachine",
-      "domain": "bidmachine.io"
-    },
+  
     {
       "seller_id": "92320",
       "seller_type": "INTERMEDIARY",
@@ -243,8 +238,8 @@
  {
     "seller_id": "92319",
     "seller_type": "PUBLISHER",
-    "name": "Reliance Games",
-    "domain": "reliancegames.com.com"
+    "name": "Veraxen Ltd.",
+    "domain": "veraxen.com"
   },
 {
     "seller_id": "92320",
