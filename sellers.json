@@ -20,33 +20,33 @@
 
     {
       "seller_id": "92315",
-      "seller_type": "BOTH",
-      "domain": "uploss.net",
-      "name": "UPLOSS LIMITED"
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
       "seller_id": "92318",
-      "seller_type": "PUBLISHER",
-      "name": "CallApp Software Ltd.",
-      "domain": "callapp.com",
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
       "seller_id": "92314",
-      "seller_type": "BOTH",
-      "domain": "learnings.ai",
-      "name": "Learnings Co., Limited"
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
       "seller_id": "92313",
-      "seller_type": "PUBLISHER",
-      "domain": "scopely.com",
-      "name": "Scopely, Inc"
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
       "seller_id": "92312",
-      "seller_type": "BOTH",
-      "domain": "peoplefun.com",
-      "name": "PeopleFun, Inc."
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
       "name": "SmartNews",
@@ -56,15 +56,9 @@
     },
     {
       "seller_id": "92316",
-      "seller_type": "BOTH",
-      "domain": "oziontech.com",
-      "name": "Ozion"
-    },
-    {
-      "seller_id": "92318",
-      "seller_type": "BOTH",
-      "domain": "gamovation.com",
-      "name": "GamoVation"
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
     },
     {
       "seller_id": "N19T95",
@@ -168,32 +162,7 @@
       "name": "Verve",
       "domain": "pubnative.net"
     },
-    {
-      "seller_id": "92312",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
-    {
-      "seller_id": "92313",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
-    {
-      "seller_id": "92314",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
-    {
-      "seller_id": "92315",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
-  
-    {
+      {
       "seller_id": "92320",
       "seller_type": "INTERMEDIARY",
       "name": "Bidmachine",
@@ -223,18 +192,6 @@
       "domain": "onefootball.com",
       "name": "Onefootball"
 },
-{
-      "seller_id": "92316",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
-{
-      "seller_id": "92318",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
   {
     "seller_id": "92317",
     "seller_type": "PUBLISHER",
