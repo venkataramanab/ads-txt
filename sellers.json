@@ -144,12 +144,7 @@
       "domain": "www.findhealthcares.com",
       "name": "www.findhealthcares.com"
     },
-    {
-      "seller_id": "tas-703",
-      "seller_type": "PUBLISHER",
-      "name": "Playsimple",
-      "domain": "playsimple.in"
-    },
+  
     {
       "seller_id": "tas-704",
       "seller_type": "PUBLISHER",
@@ -198,12 +193,19 @@
     "name": "Zimad",
     "domain": "zimad.com"
   },
+{
+      "seller_id": "tas-703",
+      "seller_type": "PUBLISHER",
+      "name": "Learnings",
+      "domain": "learnings.ai"
+    },
  {
     "seller_id": "92319",
     "seller_type": "PUBLISHER",
-    "name": "Veraxen Ltd.",
-    "domain": "veraxen.com"
+    "name": "Playsimple",
+    "domain": "playsimple.in"
   },
+
 {
     "seller_id": "92320",
     "seller_type": "PUBLISHER",
