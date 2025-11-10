@@ -245,6 +245,12 @@
       "domain": "admixer.com"
     },
     {
+            "seller_id": "90121",
+            "seller_type": "PUBLISHER",
+            "name": "MobilityWare, LLC",
+            "domain": "mobilityware.com"
+        },
+    {
       "seller_id": "82536",
       "seller_type": "INTERMEDIARY",
       "name": "Smaato",
