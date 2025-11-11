@@ -19,6 +19,13 @@
     },
 
     {
+            "seller_id": "92316",
+            "seller_type": "PUBLISHER",
+            "name": "PeopleFun, Inc.",
+            "domain": "peoplefun.com"
+        },
+
+    {
       "seller_id": "92315",
       "seller_type": "INTERMEDIARY",
       "name": "Verve",
