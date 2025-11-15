@@ -18,12 +18,12 @@
       "name": "Pocket FM Corp."
     },
 
-    {
-            "seller_id": "92316",
-            "seller_type": "PUBLISHER",
-            "name": "PeopleFun, Inc.",
-            "domain": "peoplefun.com"
-        },
+   {
+      "seller_id": "92316",
+      "name": "CallApp Software, Ltd.",
+      "domain": "callapp.com",
+      "seller_type": "PUBLISHER"
+    },
 
     {
       "seller_id": "92315",
@@ -61,12 +61,7 @@
       "seller_id": "92331",
       "seller_type": "PUBLISHER"
     },
-    {
-      "seller_id": "92316",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
+  
     {
       "seller_id": "N19T95",
       "seller_type": "BOTH",
@@ -179,14 +174,14 @@
     {
       "seller_id": "92322",
       "seller_type": "INTERMEDIARY",
-      "name": "Bidmachine",
-      "domain": "bidmachine.io"
+      "name": "PeopleFun, Inc."",
+      "domain": "peoplefun.com"
     },
     {
       "seller_id": "92323",
-      "seller_type": "INTERMEDIARY",
-      "name": "Bidmachine",
-      "domain": "bidmachine.io"
+      "name": "Ozion",
+      "domain": "oziontech.com",
+      "seller_type": "PUBLISHER"
     },
 {
       "seller_id": "tas-706",
