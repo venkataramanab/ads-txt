@@ -1,0 +1,484 @@
+TARGET,APP_NAME,URL,ADS.TXT,IS HTTPS?,programmaticians.com,rightxchange.com,REMARKS
+https://modhub.us,-,https://modhub.us,https://modhub.us/ads.txt,True,-,-,
+https://filmibeat.com,-,-,-,-,-,-,NA - 403
+https://timeout.com,-,https://timeout.com,https://timeout.com/ads.txt,True,-,-,
+https://books2020.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='books2020.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1017)')))"
+https://ilovenovels.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='ilovenovels.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1017)')))"
+https://hawtcelebs.com,-,https://hawtcelebs.com,https://hawtcelebs.com/ads.txt,True,-,-,
+https://mundodeportivo.com,-,https://mundodeportivo.com,https://mundodeportivo.com/ads.txt,True,-,-,
+https://booksnovels.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='booksnovels.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'booksnovels.com'. (_ssl.c:1017)"")))"
+https://sofascore.com,-,https://sofascore.com,https://sofascore.com/ads.txt,True,-,-,
+https://tweaksforgeeks.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='tweaksforgeeks.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba1253f10>: Failed to resolve 'tweaksforgeeks.com' ([Errno -2] Name or service not known)""))"
+https://Automoto.it,-,https://Automoto.it,https://Automoto.it/ads.txt,True,-,-,
+https://Moto.it,-,https://Moto.it,https://Moto.it/ads.txt,True,-,-,
+equibase,-,-,-,-,-,-,Invalid domain
+https://athleticia.net,-,https://athleticia.net,https://athleticia.net/ads.txt,True,-,-,
+https://cookingfanatic.com,-,-,-,-,-,-,"ConnectionError ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+https://autolandia.us,-,https://autolandia.us,https://autolandia.us/ads.txt,True,-,-,
+https://gearedtoyou.com,-,https://gearedtoyou.com,https://gearedtoyou.com/ads.txt,True,-,-,
+https://lancelotdigital.com,-,https://lancelotdigital.com,https://lancelotdigital.com/ads.txt,True,-,-,
+https://casho.la,-,https://casho.la,https://casho.la/ads.txt,True,-,-,
+https://lovenovels.net,-,https://lovenovels.net,https://lovenovels.net/ads.txt,True,-,-,
+https://vetrinamotori.it,-,https://vetrinamotori.it,https://vetrinamotori.it/ads.txt,True,-,-,
+https://crushthat.com,-,https://crushthat.com,https://crushthat.com/ads.txt,True,-,-,
+https://buzzvip.pt,-,https://buzzvip.pt,https://buzzvip.pt/ads.txt,True,-,-,
+https://motherlyvisions.com,-,https://motherlyvisions.com,https://motherlyvisions.com/ads.txt,True,-,-,
+https://hiplatinos.com,-,https://hiplatinos.com,https://hiplatinos.com/ads.txt,True,-,-,
+https://styleonwards.com,-,https://styleonwards.com,https://styleonwards.com/ads.txt,True,-,-,
+https://wallstreetmojo.com,-,https://wallstreetmojo.com,https://wallstreetmojo.com/ads.txt,True,-,-,
+feastfulcuisine,-,-,-,-,-,-,Invalid domain
+https://outlookindia.com,-,https://outlookindia.com,https://outlookindia.com/ads.txt,True,"programmaticians.com, PMWEB142, DIRECT; programmaticians.com, PGADG254, DIRECT","rightxchange.com, REXWEB136, DIRECT",
+https://gamewave.fr,-,https://gamewave.fr,https://gamewave.fr/ads.txt,True,-,-,
+https://ilustrado.cl,-,https://ilustrado.cl,https://ilustrado.cl/ads.txt,True,-,-,
+https://breitbart.com,-,-,-,-,-,-,NA - 403
+https://pericos.es,-,https://pericos.es,https://pericos.es/ads.txt,True,-,-,
+https://netzero.net,-,https://netzero.net,https://netzero.net/ads.txt,True,-,-,
+https://polovniautomobili.com,-,https://polovniautomobili.com,https://polovniautomobili.com/ads.txt,True,-,-,
+https://besoccer.com,-,https://besoccer.com,https://besoccer.com/ads.txt,True,"programmaticians.com, PMCMRSL101, RESELLER; programmaticians.com, PMCMRSL100, RESELLER; programmaticians.com, PMCMRSL102, RESELLER; programmaticians.com, PMRE100, RESELLER","rightxchange.com, RECMRSL100, RESELLER; rightxchange.com, RECMRSL101, RESELLER; rightxchange.com, RXRE100, RESELLER",
+https://wrestlingheadlines.com,-,https://wrestlingheadlines.com,https://wrestlingheadlines.com/ads.txt,True,-,-,
+https://runyourpool.com,-,https://runyourpool.com,https://runyourpool.com/ads.txt,True,-,-,
+https://thestatuslife.com,-,https://thestatuslife.com,https://thestatuslife.com/ads.txt,True,-,-,
+https://winnerzcircle.com,-,https://winnerzcircle.com,https://winnerzcircle.com/ads.txt,True,-,-,
+https://vivarecipes.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='vivarecipes.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba08001c0>: Failed to resolve 'vivarecipes.com' ([Errno -2] Name or service not known)""))"
+https://y99.in,-,https://y99.in,https://y99.in/ads.txt,True,-,-,
+https://cnnindonesia.com,-,-,-,-,-,-,NA - 403
+https://disboards.com,-,https://disboards.com,https://disboards.com/ads.txt,True,-,-,
+https://meetyou.me,-,https://meetyou.me,https://meetyou.me/ads.txt,True,-,-,
+https://demotywatory.pl,-,https://demotywatory.pl,https://demotywatory.pl/ads.txt,True,-,-,
+https://weddingdressesguide.com,-,https://weddingdressesguide.com,https://weddingdressesguide.com/ads.txt,True,-,-,
+https://statecollege.com,-,https://statecollege.com,https://statecollege.com/ads.txt,True,-,-,
+https://kralmuzik.com.tr,-,https://kralmuzik.com.tr,https://kralmuzik.com.tr/ads.txt,True,-,-,
+https://tlctv.com.tr,-,https://tlctv.com.tr,https://tlctv.com.tr/ads.txt,True,-,-,
+https://dmax.com.tr,-,https://dmax.com.tr,https://dmax.com.tr/ads.txt,True,-,-,
+https://joemonster.org,-,https://joemonster.org,https://joemonster.org/ads.txt,True,-,-,
+https://stylowi.pl,-,-,-,-,-,-,NA - 403
+https://faktopedia.pl,-,https://faktopedia.pl,https://faktopedia.pl/ads.txt,True,-,-,
+https://anonimowe.pl,-,https://anonimowe.pl,https://anonimowe.pl/ads.txt,True,-,-,
+https://mistrzowie.org,-,https://mistrzowie.org,https://mistrzowie.org/ads.txt,True,-,-,
+https://feastfulcuisine.com,-,https://feastfulcuisine.com,https://feastfulcuisine.com/ads.txt,True,-,-,
+https://nogomania.com,-,https://nogomania.com,https://nogomania.com/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT",-,
+https://piekielni.pl,-,https://piekielni.pl,https://piekielni.pl/ads.txt,True,-,-,
+https://medjournaldaily.com,-,https://medjournaldaily.com,https://medjournaldaily.com/ads.txt,True,-,-,
+https://walla.co.il,-,https://walla.co.il,https://walla.co.il/ads.txt,True,-,-,
+https://tokybook.com,-,-,-,-,-,-,Empty response
+https://education-load.net,-,https://education-load.net,https://education-load.net/ads.txt,True,-,-,
+https://newslive.com,-,https://newslive.com,https://newslive.com/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT",-,
+https://mid-day.com,-,https://mid-day.com,https://mid-day.com/ads.txt,True,-,-,
+https://mollygram.com,-,https://mollygram.com,https://mollygram.com/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT",-,
+https://cronista.com,-,https://cronista.com,https://cronista.com/ads.txt,True,-,-,
+https://shaalaa.com,-,https://shaalaa.com,https://shaalaa.com/ads.txt,True,-,-,
+https://storiesdown.co,-,https://storiesdown.co,https://storiesdown.co/ads.txt,True,-,-,
+https://factsc.com,-,https://factsc.com,https://factsc.com/ads.txt,True,-,-,
+https://tupaki.com,-,https://tupaki.com,https://tupaki.com/ads.txt,True,-,-,
+https://games4king.com,-,https://games4king.com,https://games4king.com/ads.txt,True,-,-,
+https://askvoid.com,-,https://askvoid.com,https://askvoid.com/ads.txt,True,-,-,
+https://6parkbbs.com,-,https://6parkbbs.com,https://6parkbbs.com/ads.txt,True,-,-,
+https://starsunfolded.com,-,https://starsunfolded.com,https://starsunfolded.com/ads.txt,True,-,-,
+https://asiafarming.com,-,https://asiafarming.com,https://asiafarming.com/ads.txt,True,-,-,
+https://hotkdee.com,-,https://hotkdee.com,https://hotkdee.com/ads.txt,True,-,-,
+https://nameslook.com,-,https://nameslook.com,https://nameslook.com/ads.txt,True,-,-,
+https://dsij.in,-,https://dsij.in,https://dsij.in/ads.txt,True,-,-,
+https://detik.com,-,https://detik.com,https://detik.com/ads.txt,True,-,-,
+https://pulsesports.ng,-,https://pulsesports.ng,https://pulsesports.ng/ads.txt,True,-,-,
+https://romaniinostri.ro,-,https://romaniinostri.ro,https://romaniinostri.ro/ads.txt,True,-,-,
+https://livenewsof.com,-,https://livenewsof.com,https://livenewsof.com/ads.txt,True,-,-,
+https://sarkarinetwork.com,-,-,-,-,-,-,1 lines only
+https://livenewsnow.com,-,https://livenewsnow.com,https://livenewsnow.com/ads.txt,True,-,-,
+https://manoramaonline.com,-,https://manoramaonline.com,https://manoramaonline.com/ads.txt,True,-,-,
+https://poezja.org,-,https://poezja.org,https://poezja.org/ads.txt,True,-,-,
+https://Hk01.com,-,https://Hk01.com,https://Hk01.com/ads.txt,True,-,-,
+https://rmfon.pl,-,https://rmfon.pl,https://rmfon.pl/ads.txt,True,-,-,
+https://dailymirror.lk,-,https://dailymirror.lk,https://dailymirror.lk/ads.txt,True,-,-,
+https://twojstyl.pl,-,https://twojstyl.pl,https://twojstyl.pl/ads.txt,True,-,-,
+https://mamadu.pl,-,https://mamadu.pl,https://mamadu.pl/ads.txt,True,-,-,
+https://dziennik.pl,-,https://dziennik.pl,https://dziennik.pl/ads.txt,True,-,-,
+https://radiozet.pl,-,https://radiozet.pl,https://radiozet.pl/ads.txt,True,-,-,
+https://naszemiasto.pl,-,https://naszemiasto.pl,https://naszemiasto.pl/ads.txt,True,-,-,
+https://tko.pl,-,https://tko.pl,https://tko.pl/ads.txt,True,-,-,
+https://pravda.sk,-,https://pravda.sk,https://pravda.sk/ads.txt,True,-,-,
+https://expresskaszubski.pl,-,https://expresskaszubski.pl,https://expresskaszubski.pl/ads.txt,True,-,-,
+https://ta3.com,-,https://ta3.com,https://ta3.com/ads.txt,True,-,-,
+https://isokolka.eu,-,https://isokolka.eu,https://isokolka.eu/ads.txt,True,-,-,
+https://defence24.pl,-,https://defence24.pl,https://defence24.pl/ads.txt,True,-,-,
+https://rmf.fm,-,https://rmf.fm,https://rmf.fm/ads.txt,True,-,-,
+https://gorzowianin.com,-,https://gorzowianin.com,https://gorzowianin.com/ads.txt,True,-,-,
+https://mylomza.pl,-,https://mylomza.pl,https://mylomza.pl/ads.txt,True,-,-,
+https://hej.mielec.pl,-,https://hej.mielec.pl,https://hej.mielec.pl/ads.txt,True,-,-,
+https://zenyvmeste.sk,-,https://zenyvmeste.sk,https://zenyvmeste.sk/ads.txt,True,-,-,
+https://test-udt.pl,-,https://test-udt.pl,https://test-udt.pl/ads.txt,True,-,-,
+https://innpoland.pl,-,https://innpoland.pl,https://innpoland.pl/ads.txt,True,-,-,
+https://lublin24.pl,-,https://lublin24.pl,https://lublin24.pl/ads.txt,True,-,-,
+https://iszczecinek.pl,-,https://iszczecinek.pl,https://iszczecinek.pl/ads.txt,True,-,-,
+https://lowiczanin.info,-,https://lowiczanin.info,https://lowiczanin.info/ads.txt,True,-,-,
+https://tuwroclaw.com,-,https://tuwroclaw.com,https://tuwroclaw.com/ads.txt,True,-,-,
+https://indiatvnews.com,-,https://indiatvnews.com,https://indiatvnews.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://ndtv.com,-,https://ndtv.com,https://ndtv.com/ads.txt,True,-,-,
+https://gazetawroclawska.pl,-,https://gazetawroclawska.pl,https://gazetawroclawska.pl/ads.txt,True,-,-,
+https://24jgora.pl,-,https://24jgora.pl,https://24jgora.pl/ads.txt,True,-,-,
+https://sharchat.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='sharchat.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0847970>: Failed to resolve 'sharchat.com' ([Errno -2] Name or service not known)""))"
+https://myglogow.pl,-,https://myglogow.pl,https://myglogow.pl/ads.txt,True,-,-,
+https://sports.media.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='sports.media.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0801270>: Failed to resolve 'sports.media.network' ([Errno -2] Name or service not known)""))"
+https://retail.media.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='retail.media.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0802020>: Failed to resolve 'retail.media.network' ([Errno -2] Name or service not known)""))"
+https://esakal.com,-,-,-,-,-,-,NA - 403
+https://fashion.beauty.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='fashion.beauty.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0800f40>: Failed to resolve 'fashion.beauty.network' ([Errno -2] Name or service not known)""))"
+https://com.headline.ctv,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='com.headline.ctv', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba07dad70>: Failed to resolve 'com.headline.ctv' ([Errno -2] Name or service not known)""))"
+https://holiday.travel.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='holiday.travel.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0847820>: Failed to resolve 'holiday.travel.network' ([Errno -2] Name or service not known)""))"
+https://com.boxstv.flixpreview,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='com.boxstv.flixpreview', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0846080>: Failed to resolve 'com.boxstv.flixpreview' ([Errno -2] Name or service not known)""))"
+https://business.finance.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='business.finance.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0845540>: Failed to resolve 'business.finance.network' ([Errno -2] Name or service not known)""))"
+https://com.boxstv.melolite,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='com.boxstv.melolite', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0803dc0>: Failed to resolve 'com.boxstv.melolite' ([Errno -2] Name or service not known)""))"
+https://food.drink.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='food.drink.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0846ec0>: Failed to resolve 'food.drink.network' ([Errno -2] Name or service not known)""))"
+https://com.boxstv.live,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='com.boxstv.live', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0800dc0>: Failed to resolve 'com.boxstv.live' ([Errno -2] Name or service not known)""))"
+https://com.bsbportal.music,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='com.bsbportal.music', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba07d85e0>: Failed to resolve 'com.bsbportal.music' ([Errno -2] Name or service not known)""))"
+https://meloradio.pl,-,https://meloradio.pl,https://meloradio.pl/ads.txt,True,-,-,
+https://Puhutv.com,-,https://Puhutv.com,https://Puhutv.com/ads.txt,True,-,-,
+https://medical.health.network,-,-,-,-,-,-,Empty response
+https://Dishboard.com,-,-,-,-,-,-,Text content not found
+https://crunchyroll.com,-,https://crunchyroll.com,https://crunchyroll.com/ads.txt,True,-,-,
+https://ntv.com.tr,-,https://ntv.com.tr,https://ntv.com.tr/ads.txt,True,-,-,
+https://Koreaboo.com,-,https://Koreaboo.com,https://Koreaboo.com/ads.txt,True,-,-,
+https://com.tvbusa.encore,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='com.tvbusa.encore', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0800d00>: Failed to resolve 'com.tvbusa.encore' ([Errno -2] Name or service not known)""))"
+https://motorsport.com,-,https://motorsport.com,https://motorsport.com/ads.txt,True,-,-,
+https://motor1.com,-,https://motor1.com,https://motor1.com/ads.txt,True,-,-,
+https://thebrighterside.news,-,https://thebrighterside.news,https://thebrighterside.news/ads.txt,True,-,-,
+https://lat.motorsport.com,-,-,-,-,-,-,Text content not found
+https://fr.motorsport.com,-,https://fr.motorsport.com,https://fr.motorsport.com/ads.txt,True,-,-,
+https://pl.motorsport.com,-,https://pl.motorsport.com,https://pl.motorsport.com/ads.txt,True,-,-,
+https://us.motorsport.com,-,https://us.motorsport.com,https://us.motorsport.com/ads.txt,True,-,-,
+https://it.motorsport.com,-,https://it.motorsport.com,https://it.motorsport.com/ads.txt,True,-,-,
+https://motorsport.tv,-,https://motorsport.tv,https://motorsport.tv/ads.txt,True,-,-,
+https://es.motorsport.com,-,https://es.motorsport.com,https://es.motorsport.com/ads.txt,True,-,-,
+https://de.motorsport.com,-,https://de.motorsport.com,https://de.motorsport.com/ads.txt,True,-,-,
+https://fr.motor1.com,-,https://fr.motor1.com,https://fr.motor1.com/ads.txt,True,-,-,
+https://jp.motorsport.com,-,https://jp.motorsport.com,https://jp.motorsport.com/ads.txt,True,-,-,
+https://au.motorsport.com,-,https://au.motorsport.com,https://au.motorsport.com/ads.txt,True,-,-,
+https://rideapart.com,-,https://rideapart.com,https://rideapart.com/ads.txt,True,-,-,
+https://fandom.com,-,https://fandom.com,https://fandom.com/ads.txt,True,-,-,
+https://uk.motor1.com,-,-,-,-,-,-,Ads.txt Not Found
+https://conservativebrief.com,-,https://conservativebrief.com,https://conservativebrief.com/ads.txt,True,-,-,
+https://ndtv.in,-,https://ndtv.in,https://ndtv.in/ads.txt,True,-,-,
+https://drudgereport.com,-,https://drudgereport.com,https://drudgereport.com/ads.txt,True,-,-,
+https://webmd.com,-,https://webmd.com,https://webmd.com/ads.txt,True,-,-,
+https://tvbanywherena.com,-,https://tvbanywherena.com,https://tvbanywherena.com/ads.txt,True,-,-,
+https://gizbot.com,-,https://gizbot.com,https://gizbot.com/ads.txt,True,"programmaticians.com, PMWEB110, DIRECT","rightxchange.com, REXWEB104, DIRECT",
+https://oneindia.com,-,https://oneindia.com,https://oneindia.com/ads.txt,True,"programmaticians.com, PMWEB106, DIRECT","rightxchange.com, REXWEB100, DIRECT",
+https://pixnet.net,-,https://pixnet.net,https://pixnet.net/ads.txt,True,-,-,
+https://gadgets360.com,-,https://gadgets360.com,https://gadgets360.com/ads.txt,True,-,-,
+https://freefontdownload.org,-,https://freefontdownload.org,https://freefontdownload.org/ads.txt,True,-,-,
+https://altibbi.com,-,https://altibbi.com,https://altibbi.com/ads.txt,True,-,-,
+https://insideevs.com,-,https://insideevs.com,https://insideevs.com/ads.txt,True,-,-,
+https://am730.com.hk,-,https://am730.com.hk,https://am730.com.hk/ads.txt,True,-,-,
+https://espn.com,-,https://espn.com,https://espn.com/ads.txt,True,-,-,
+https://al-marsd.com,-,https://al-marsd.com,https://al-marsd.com/ads.txt,True,-,-,
+https://dailyhunt.in,-,https://dailyhunt.in,https://dailyhunt.in/ads.txt,True,"programmaticians.com, PGADG182, DIRECT",-,
+https://bilibili.tv,-,https://bilibili.tv,https://bilibili.tv/ads.txt,True,-,-,
+https://news.koreadaily.com,-,https://news.koreadaily.com,https://news.koreadaily.com/ads.txt,True,-,-,
+https://sanook.com,-,https://sanook.com,https://sanook.com/ads.txt,False,"programmaticians.com, PGADG200, DIRECT; programmaticians.com, PGADG200, DIRECT",-,
+https://marca.com,-,https://marca.com,https://marca.com/ads.txt,True,-,-,
+https://fantasy.espn.com,-,-,-,-,-,-,Text content not found
+https://findagrave.com,-,https://findagrave.com,https://findagrave.com/ads.txt,True,-,-,
+https://freeconvert.com,-,https://freeconvert.com,https://freeconvert.com/ads.txt,True,-,-,
+https://sponichi.co.jp,-,https://sponichi.co.jp,https://sponichi.co.jp/ads.txt,True,-,-,
+https://espncricinfo.com,-,-,-,-,-,-,NA - 403
+https://blavity.com,-,https://blavity.com,https://blavity.com/ads.txt,True,-,-,
+https://blitz.gg,-,https://blitz.gg,https://blitz.gg/ads.txt,True,-,-,
+https://nowiveseeneverything.club,-,https://nowiveseeneverything.club,https://nowiveseeneverything.club/ads.txt,True,-,-,
+https://entertainmentmind.com,-,-,-,-,-,-,Text content not found
+https://gfcnieuws.com,-,https://gfcnieuws.com,https://gfcnieuws.com/ads.txt,True,-,-,
+https://zoroxtv.to,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='zoroxtv.to', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0801db0>: Failed to resolve 'zoroxtv.to' ([Errno -5] No address associated with hostname)""))"
+https://siol.net,-,https://siol.net,https://siol.net/ads.txt,True,-,-,
+https://eenadu.net,-,https://eenadu.net,https://eenadu.net/ads.txt,True,-,-,
+https://engineeringtoolbox.com,-,https://engineeringtoolbox.com,https://engineeringtoolbox.com/ads.txt,True,-,-,
+https://wfmz.com,-,https://wfmz.com,https://wfmz.com/ads.txt,True,-,-,
+https://livemint.com,-,https://livemint.com,https://livemint.com/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT",-,
+https://indianexpress.com,-,https://indianexpress.com,https://indianexpress.com/ads.txt,True,-,-,
+https://brightside.me,-,https://brightside.me,https://brightside.me/ads.txt,True,-,-,
+https://geoguessr.com,-,https://geoguessr.com,https://geoguessr.com/ads.txt,True,-,-,
+https://lanacion.com.ar,-,https://lanacion.com.ar,https://lanacion.com.ar/ads.txt,True,-,-,
+https://comick.io,-,-,-,-,-,-,0 lines only
+https://enikos.gr,-,https://enikos.gr,https://enikos.gr/ads.txt,True,-,-,
+https://timesofindia.indiatimes.com,-,https://timesofindia.indiatimes.com,https://timesofindia.indiatimes.com/ads.txt,True,-,-,
+https://navbharattimes.indiatimes.com,-,https://navbharattimes.indiatimes.com,https://navbharattimes.indiatimes.com/ads.txt,True,-,-,
+https://boldsky.com,-,https://boldsky.com,https://boldsky.com/ads.txt,True,"programmaticians.com, PMWEB109, DIRECT","rightxchange.com, REXWEB103, DIRECT",
+https://drivespark.com,-,https://drivespark.com,https://drivespark.com/ads.txt,True,"programmaticians.com, PMWEB108, DIRECT","rightxchange.com, REXWEB102, DIRECT",
+https://economictimes.indiatimes.com,-,https://economictimes.indiatimes.com,https://economictimes.indiatimes.com/ads.txt,True,"programmaticians.com, PMWEB116, RESELLER","rightxchange.com, REXWEB110, RESELLER",
+https://jagran.com,-,https://jagran.com,https://jagran.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://argiro.gr,-,https://argiro.gr,https://argiro.gr/ads.txt,True,-,-,
+https://eisamay.com,-,https://eisamay.com,https://eisamay.com/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT",-,
+https://nativeplanet.com,-,https://nativeplanet.com,https://nativeplanet.com/ads.txt,True,"programmaticians.com, PMWEB113, DIRECT","rightxchange.com, REXWEB107, DIRECT",
+https://majhinaukri.in,-,https://majhinaukri.in,https://majhinaukri.in/ads.txt,True,-,-,
+https://goodreturns.in,-,https://goodreturns.in,https://goodreturns.in/ads.txt,True,"programmaticians.com, PMWEB107, DIRECT","rightxchange.com, REXWEB101, DIRECT",
+https://mykhel.com,-,https://mykhel.com,https://mykhel.com/ads.txt,True,"programmaticians.com, PMWEB112, DIRECT","rightxchange.com, REXWEB106, DIRECT",
+https://iamgujarat.com,-,https://iamgujarat.com,https://iamgujarat.com/ads.txt,True,-,-,
+https://tamil.filmibeat.com,-,-,-,-,-,-,Ads.txt Not Found
+https://olx.in,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='www.olx.in', port=443): Read timed out. (read timeout=2)"
+https://telugu.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://careerindia.com,-,https://careerindia.com,https://careerindia.com/ads.txt,True,"programmaticians.com, PMWEB114, DIRECT","rightxchange.com, REXWEB108, DIRECT",
+https://tamil.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.boldsky.com,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.filmibeat.com,-,-,-,-,-,-,Ads.txt Not Found
+https://kannada.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://gujarati.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.filmibeat.com,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.samayam.com,-,https://tamil.samayam.com,https://tamil.samayam.com/ads.txt,True,-,-,
+https://telugu.samayam.com,-,https://telugu.samayam.com,https://telugu.samayam.com/ads.txt,True,-,-,
+https://vijaykarnataka.com,-,https://vijaykarnataka.com,https://vijaykarnataka.com/ads.txt,True,-,-,
+https://home.garden.network,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='home.garden.network', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba0802650>: Failed to resolve 'home.garden.network' ([Errno -3] Temporary failure in name resolution)""))"
+https://telugu.filmibeat.com,-,-,-,-,-,-,Ads.txt Not Found
+https://abplive.com,-,https://abplive.com,https://abplive.com/ads.txt,True,-,-,
+https://malayalam.samayam.com,-,https://malayalam.samayam.com,https://malayalam.samayam.com/ads.txt,True,-,-,
+https://bengali.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://marathi.indiatimes.com,-,https://marathi.indiatimes.com,https://marathi.indiatimes.com/ads.txt,True,-,-,
+https://hindi.goodreturns.in,-,-,-,-,-,-,Ads.txt Not Found
+https://english.jagran.com,-,https://english.jagran.com,https://english.jagran.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://gujaratijagran.com,-,https://gujaratijagran.com,https://gujaratijagran.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://kannada.filmibeat.com,-,-,-,-,-,-,Ads.txt Not Found
+https://telugu.goodreturns.in,-,-,-,-,-,-,Ads.txt Not Found
+https://odia.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://punjabijagran.com,-,https://punjabijagran.com,https://punjabijagran.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://telugu.drivespark.com,-,-,-,-,-,-,NA - 403
+https://marathijagran.com,-,https://marathijagran.com,https://marathijagran.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://kannada.goodreturns.in,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.goodreturns.in,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.drivespark.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.drivespark.com,-,-,-,-,-,-,Ads.txt Not Found
+https://kannada.drivespark.com,-,-,-,-,-,-,Ads.txt Not Found
+https://kannada.boldsky.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.goodreturns.in,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.gizbot.com,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.drivespark.com,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.gizbot.com,-,-,-,-,-,-,Ads.txt Not Found
+https://telugu.boldsky.com,-,-,-,-,-,-,Ads.txt Not Found
+https://telugu.gizbot.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.boldsky.com,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.boldsky.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.mykhel.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.gizbot.com,-,-,-,-,-,-,Ads.txt Not Found
+https://kannada.gizbot.com,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.nativeplanet.com,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.nativeplanet.com,-,-,-,-,-,-,Ads.txt Not Found
+https://telugu.mykhel.com,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.mykhel.com,-,-,-,-,-,-,Ads.txt Not Found
+https://tamil.careerindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://hindi.mykhel.com,-,-,-,-,-,-,Ads.txt Not Found
+https://abplive.com,-,https://abplive.com,https://abplive.com/ads.txt,True,-,-,
+https://kannada.nativeplanet.com,-,-,-,-,-,-,Ads.txt Not Found
+https://kannada.mykhel.com,-,-,-,-,-,-,Ads.txt Not Found
+https://wearablexp.com,-,https://wearablexp.com,https://wearablexp.com/ads.txt,True,-,-,
+https://marathi.oneindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://livescore.com,-,https://livescore.com,https://livescore.com/ads.txt,True,"programmaticians.com, PGADG102, DIRECT",-,
+https://kannada.careerindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://malayalam.nativeplanet.com,-,-,-,-,-,-,Ads.txt Not Found
+https://ketocg.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='ketocg.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba07d9a50>: Failed to resolve 'ketocg.com' ([Errno -2] Name or service not known)""))"
+https://dailyinqlab.com,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='dailyinqlab.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f5ba081ebc0>: Failed to resolve 'dailyinqlab.com' ([Errno -2] Name or service not known)""))"
+https://timesleader.com,-,-,-,-,-,-,NA - 403
+https://comexlive.org,-,https://comexlive.org,https://comexlive.org/ads.txt,True,"programmaticians.com, PGADG184, DIRECT; programmaticians.com, PMWEB154, DIRECT","rightxchange.com, REXWEB148, DIRECT",
+https://navbharattimes.com,-,-,-,-,-,-,Text content not found
+https://telugu.nativeplanet.com,-,-,-,-,-,-,Ads.txt Not Found
+https://clintonnc.com,-,-,-,-,-,-,NA - 403
+https://clermontsun.com,-,-,-,-,-,-,NA - 403
+https://robesonian.com,-,https://robesonian.com,https://robesonian.com/ads.txt,True,-,-,
+https://dowfutures.org,-,https://dowfutures.org,https://dowfutures.org/ads.txt,True,"programmaticians.com, PGADG184, DIRECT; programmaticians.com, PMWEB154, DIRECT","rightxchange.com, REXWEB148, DIRECT",
+⁠digit.in,-,-,-,-,-,-,Invalid domain
+⁠timesnowhindi.com,-,-,-,-,-,-,Invalid domain
+https://etnownews.com,-,https://etnownews.com,https://etnownews.com/ads.txt,True,-,-,
+https://pcquest.com,-,https://pcquest.com,https://pcquest.com/ads.txt,True,"programmaticians.com, AFICMNT106, DIRECT",-,
+https://hindi.careerindia.com,-,-,-,-,-,-,Ads.txt Not Found
+https://travellandmarks.com,-,-,-,-,-,-,1 lines only
+https://rtvonline.com,-,https://rtvonline.com,https://rtvonline.com/ads.txt,True,-,-,
+https://news9live.com,-,https://news9live.com,https://news9live.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://cbpng.com,-,-,-,-,-,-,1 lines only
+https://timesnownews.com,-,https://timesnownews.com,https://timesnownews.com/ads.txt,True,-,-,
+https://TV9Hindi.com,-,https://TV9Hindi.com,https://TV9Hindi.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://TV9Marathi.com,-,https://TV9Marathi.com,https://TV9Marathi.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://TV9Kannada.com,-,https://TV9Kannada.com,https://TV9Kannada.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://TV9Telugu.com,-,https://TV9Telugu.com,https://TV9Telugu.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://TV9Bangla.com,-,https://TV9Bangla.com,https://TV9Bangla.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://TV9Gujarati.com,-,https://TV9Gujarati.com,https://TV9Gujarati.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG254, DIRECT",-,
+https://TV9up.com,-,https://TV9up.com,https://TV9up.com/ads.txt,True,-,-,
+https://outlookindia.com,-,https://outlookindia.com,https://outlookindia.com/ads.txt,True,"programmaticians.com, PMWEB142, DIRECT; programmaticians.com, PGADG254, DIRECT","rightxchange.com, REXWEB136, DIRECT",
+https://Tv9tamilnews.com,-,https://Tv9tamilnews.com,https://Tv9tamilnews.com/ads.txt,True,-,-,
+https://Money9.com,-,https://Money9.com,https://Money9.com/ads.txt,True,-,-,
+https://TV9Punjabi.com,-,https://TV9Punjabi.com,https://TV9Punjabi.com/ads.txt,True,-,-,
+https://Indiatoday.in,-,https://Indiatoday.in,https://Indiatoday.in/ads.txt,True,-,-,
+https://Thesportstak.com,-,https://Thesportstak.com,https://Thesportstak.com/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT",-,
+https://Businesstoday.in,-,https://Businesstoday.in,https://Businesstoday.in/ads.txt,True,-,-,
+https://firstpost.com,-,https://firstpost.com,https://firstpost.com/ads.txt,True,"programmaticians.com, PGADG106, DIRECT; programmaticians.com, PMWEB122, DIRECT","rightxchange.com, REXWEB116, DIRECT",
+https://Oneindia.com,-,https://Oneindia.com,https://Oneindia.com/ads.txt,True,"programmaticians.com, PMWEB106, DIRECT","rightxchange.com, REXWEB100, DIRECT",
+https://openthemagazine.com,-,https://openthemagazine.com,https://openthemagazine.com/ads.txt,True,-,-,
+https://Goodreturns.in,-,https://Goodreturns.in,https://Goodreturns.in/ads.txt,True,"programmaticians.com, PMWEB107, DIRECT","rightxchange.com, REXWEB101, DIRECT",
+https://AssamTV9.com,-,https://AssamTV9.com,https://AssamTV9.com/ads.txt,True,-,-,
+https://fortuneindia.com,-,https://fortuneindia.com,https://fortuneindia.com/ads.txt,True,"programmaticians.com, PMWEB118, DIRECT","rightxchange.com, REXWEB112, DIRECT",
+https://MalayalamTV9.com,-,https://MalayalamTV9.com,https://MalayalamTV9.com/ads.txt,True,-,-,
+https://Drivespark.com,-,https://Drivespark.com,https://Drivespark.com/ads.txt,True,"programmaticians.com, PMWEB108, DIRECT","rightxchange.com, REXWEB102, DIRECT",
+https://Thelallantop.com,-,https://Thelallantop.com,https://Thelallantop.com/ads.txt,True,-,-,
+https://Boldsky.com,-,https://Boldsky.com,https://Boldsky.com/ads.txt,True,"programmaticians.com, PMWEB109, DIRECT","rightxchange.com, REXWEB103, DIRECT",
+https://Gizbot.com,-,https://Gizbot.com,https://Gizbot.com/ads.txt,True,"programmaticians.com, PMWEB110, DIRECT","rightxchange.com, REXWEB104, DIRECT",
+https://News9Plus.com,-,-,-,-,-,-,2 lines only
+https://Mykhel.com,-,https://Mykhel.com,https://Mykhel.com/ads.txt,True,"programmaticians.com, PMWEB112, DIRECT","rightxchange.com, REXWEB106, DIRECT",
+https://Nativeplanet.com,-,https://Nativeplanet.com,https://Nativeplanet.com/ads.txt,True,"programmaticians.com, PMWEB113, DIRECT","rightxchange.com, REXWEB107, DIRECT",
+https://economictimes.indiatimes.com,-,https://economictimes.indiatimes.com,https://economictimes.indiatimes.com/ads.txt,True,"programmaticians.com, PMWEB116, RESELLER","rightxchange.com, REXWEB110, RESELLER",
+https://Filmibeat.com,-,https://Filmibeat.com,https://Filmibeat.com/ads.txt,True,"programmaticians.com, PMWEB111, DIRECT","rightxchange.com, REXWEB105, DIRECT",
+https://Careerindia.com,-,https://Careerindia.com,https://Careerindia.com/ads.txt,True,"programmaticians.com, PMWEB114, DIRECT","rightxchange.com, REXWEB108, DIRECT",
+https://timesofindia.indiatimes.com,-,https://timesofindia.indiatimes.com,https://timesofindia.indiatimes.com/ads.txt,True,-,-,
+https://Aajtak.in,-,https://Aajtak.in,https://Aajtak.in/ads.txt,True,-,-,
+https://news18.com,-,-,-,-,-,-,NA - 403
+https://marca.com,-,https://marca.com,https://marca.com/ads.txt,True,-,-,
+https://espn.com.br,-,https://espn.com.br,https://espn.com.br/ads.txt,False,-,-,
+https://moneycontrol.com,-,https://moneycontrol.com,https://moneycontrol.com/ads.txt,True,"programmaticians.com, PGADG107, DIRECT; programmaticians.com, PMWEB122, DIRECT; programmaticians.com, PMWEB117, DIRECT","rightxchange.com, REXWEB116, DIRECT; rightxchange.com, REXWEB111, DIRECT",
+https://iefimerida.gr,-,https://iefimerida.gr,https://iefimerida.gr/ads.txt,True,-,-,
+https://sdna.gr,-,https://sdna.gr,https://sdna.gr/ads.txt,True,-,-,
+https://a24.com,-,https://a24.com,https://a24.com/ads.txt,True,-,-,
+https://jornada.com.mx,-,https://jornada.com.mx,https://jornada.com.mx/ads.txt,True,-,-,
+https://enikos.gr,-,https://enikos.gr,https://enikos.gr/ads.txt,True,-,-,
+https://tvguia.es,-,https://tvguia.es,https://tvguia.es/ads.txt,True,-,-,
+https://vecer.com,-,https://vecer.com,https://vecer.com/ads.txt,True,-,-,
+https://geoguessr.com,-,https://geoguessr.com,https://geoguessr.com/ads.txt,True,-,-,
+https://mathrubhumi.com,-,https://mathrubhumi.com,https://mathrubhumi.com/ads.txt,True,-,-,
+https://lanacion.com.ar,-,https://lanacion.com.ar,https://lanacion.com.ar/ads.txt,True,-,-,
+https://gujaratsamachar.com,-,https://gujaratsamachar.com,https://gujaratsamachar.com/ads.txt,True,-,-,
+https://liberoquotidiano.it,-,-,-,-,-,-,NA - 403
+https://mykhel.com,-,https://mykhel.com,https://mykhel.com/ads.txt,True,"programmaticians.com, PMWEB112, DIRECT","rightxchange.com, REXWEB106, DIRECT",
+https://pixiv.net,-,https://pixiv.net,https://pixiv.net/ads.txt,True,-,-,
+https://neakriti.gr,-,https://neakriti.gr,https://neakriti.gr/ads.txt,True,-,-,
+https://espn.com.co,-,https://espn.com.co,https://espn.com.co/ads.txt,True,-,-,
+https://svet24.si,-,https://svet24.si,https://svet24.si/ads.txt,True,-,-,
+https://espn.com.ar,-,https://espn.com.ar,https://espn.com.ar/ads.txt,True,-,-,
+https://voria.gr,-,https://voria.gr,https://voria.gr/ads.txt,True,-,-,
+https://devlibrary.in,-,https://devlibrary.in,https://devlibrary.in/ads.txt,True,-,-,
+https://abplive.com,-,https://abplive.com,https://abplive.com/ads.txt,True,-,-,
+https://vikatan.com,-,https://vikatan.com,https://vikatan.com/ads.txt,True,-,-,
+https://iltempo.it,-,https://iltempo.it,https://iltempo.it/ads.txt,True,-,-,
+https://sponichi.co.jp,-,https://sponichi.co.jp,https://sponichi.co.jp/ads.txt,True,-,-,
+https://discuss.com.hk,-,https://discuss.com.hk,https://discuss.com.hk/ads.txt,True,-,-,
+https://lifo.gr,-,https://lifo.gr,https://lifo.gr/ads.txt,True,-,-,
+https://sandesh.com,-,https://sandesh.com,https://sandesh.com/ads.txt,True,-,-,
+https://flight.com.gr,-,https://flight.com.gr,https://flight.com.gr/ads.txt,True,-,-,
+https://zajenata.bg,-,https://zajenata.bg,https://zajenata.bg/ads.txt,True,-,-,
+https://eurohoops.net,-,https://eurohoops.net,https://eurohoops.net/ads.txt,True,-,-,
+https://weloversize.com,-,https://weloversize.com,https://weloversize.com/ads.txt,True,-,-,
+https://alldaynews.gr,-,https://alldaynews.gr,https://alldaynews.gr/ads.txt,True,-,-,
+https://bovary.gr,-,https://bovary.gr,https://bovary.gr/ads.txt,True,-,-,
+https://newsbeast.gr,-,https://newsbeast.gr,https://newsbeast.gr/ads.txt,True,-,-,
+https://espn.com.mx,-,https://espn.com.mx,https://espn.com.mx/ads.txt,True,-,-,
+https://gazzettadiparma.it,-,https://gazzettadiparma.it,https://gazzettadiparma.it/ads.txt,True,-,-,
+https://eleftherostypos.gr,-,https://eleftherostypos.gr,https://eleftherostypos.gr/ads.txt,True,-,-,
+https://reader.gr,-,https://reader.gr,https://reader.gr/ads.txt,True,-,-,
+https://ktvz.com,-,https://ktvz.com,https://ktvz.com/ads.txt,True,-,-,
+https://wfmz.com,-,https://wfmz.com,https://wfmz.com/ads.txt,True,-,-,
+https://sport5.co.il,-,https://sport5.co.il,https://sport5.co.il/ads.txt,True,-,-,
+https://walla.co.il,-,https://walla.co.il,https://walla.co.il/ads.txt,True,-,-,
+https://athensvoice.gr,-,https://athensvoice.gr,https://athensvoice.gr/ads.txt,True,-,-,
+https://portalanalitika.me,-,https://portalanalitika.me,https://portalanalitika.me/ads.txt,True,-,-,
+https://lawandorder.gr,-,https://lawandorder.gr,https://lawandorder.gr/ads.txt,True,-,-,
+https://vppgamingnetwork.com,-,https://vppgamingnetwork.com,https://vppgamingnetwork.com/ads.txt,True,-,-,
+https://menshouse.gr,-,https://menshouse.gr,https://menshouse.gr/ads.txt,True,-,-,
+https://zarpanews.gr,-,https://zarpanews.gr,https://zarpanews.gr/ads.txt,True,-,-,
+https://kxly.com,-,https://kxly.com,https://kxly.com/ads.txt,True,-,-,
+https://tlife.gr,-,https://tlife.gr,https://tlife.gr/ads.txt,True,-,-,
+https://newspao.gr,-,https://newspao.gr,https://newspao.gr/ads.txt,True,-,-,
+https://sportdog.gr,-,https://sportdog.gr,https://sportdog.gr/ads.txt,True,-,-,
+https://sport.es,-,https://sport.es,https://sport.es/ads.txt,True,-,-,
+https://dailymedia.com.gr,-,-,-,-,-,-,NA - 520
+https://militaire.gr,-,https://militaire.gr,https://militaire.gr/ads.txt,True,-,-,
+https://eltrecetv.com.ar,-,https://eltrecetv.com.ar,https://eltrecetv.com.ar/ads.txt,True,-,-,
+https://arcadiaportal.gr,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='arcadiaportal.gr', port=443): Max retries exceeded with url: /ads.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5ba07db670>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://jasnastrona.com,-,https://jasnastrona.com,https://jasnastrona.com/ads.txt,True,-,-,
+https://cnn.gr,-,https://cnn.gr,https://cnn.gr/ads.txt,True,-,-,
+https://hsslive.guru,-,https://hsslive.guru,https://hsslive.guru/ads.txt,True,-,-,
+https://aveserres.gr,-,https://aveserres.gr,https://aveserres.gr/ads.txt,True,-,-,
+https://newsbomb.gr,-,https://newsbomb.gr,https://newsbomb.gr/ads.txt,True,-,-,
+https://vradini.gr,-,https://vradini.gr,https://vradini.gr/ads.txt,True,-,-,
+https://najdi.si,-,https://najdi.si,https://najdi.si/ads.txt,True,-,-,
+https://paparazzi.com.ar,-,https://paparazzi.com.ar,https://paparazzi.com.ar/ads.txt,True,-,-,
+https://punjabijagran.com,-,https://punjabijagran.com,https://punjabijagran.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://camfrog.com,-,https://camfrog.com,https://camfrog.com/ads.txt,True,-,-,
+https://natlawreview.com,-,https://natlawreview.com,https://natlawreview.com/ads.txt,True,-,-,
+https://paok24.com,-,https://paok24.com,https://paok24.com/ads.txt,True,-,-,
+https://olaprasina1908.gr,-,https://olaprasina1908.gr,https://olaprasina1908.gr/ads.txt,True,-,-,
+https://herzindagi.com,-,https://herzindagi.com,https://herzindagi.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",-,
+https://detik.com,-,https://detik.com,https://detik.com/ads.txt,True,-,-,
+https://indiatoday.in,-,https://indiatoday.in,https://indiatoday.in/ads.txt,True,-,-,
+https://upboardsolutions.com,-,https://upboardsolutions.com,https://upboardsolutions.com/ads.txt,True,-,-,
+https://pillowfights.gr,-,https://pillowfights.gr,https://pillowfights.gr/ads.txt,True,-,-,
+https://theodysseyonline.com,-,https://theodysseyonline.com,https://theodysseyonline.com/ads.txt,True,-,-,
+https://patrisnews.com,-,https://patrisnews.com,https://patrisnews.com/ads.txt,True,-,-,
+https://recetasparathermomix.com,-,https://recetasparathermomix.com,https://recetasparathermomix.com/ads.txt,True,-,-,
+https://upboardguide.com,-,https://upboardguide.com,https://upboardguide.com/ads.txt,True,-,-,
+https://familywatchdog.us,-,https://familywatchdog.us,https://familywatchdog.us/ads.txt,True,-,-,
+https://allaboutaris.gr,-,https://allaboutaris.gr,https://allaboutaris.gr/ads.txt,True,-,-,
+https://aztecachihuahua.com,-,https://aztecachihuahua.com,https://aztecachihuahua.com/ads.txt,True,-,-,
+https://e-thessalia.gr,-,https://e-thessalia.gr,https://e-thessalia.gr/ads.txt,True,-,-,
+https://crowdmedia.pl,-,https://crowdmedia.pl,https://crowdmedia.pl/ads.txt,True,-,-,
+https://sansimera.gr,-,https://sansimera.gr,https://sansimera.gr/ads.txt,True,-,-,
+https://thecable.ng,-,https://thecable.ng,https://thecable.ng/ads.txt,True,-,-,
+https://musor.tv,-,https://musor.tv,https://musor.tv/ads.txt,True,-,-,
+https://espn.com.pe,-,https://espn.com.pe,https://espn.com.pe/ads.txt,False,-,-,
+https://revistagente.com,-,-,-,-,-,-,NA - 403
+https://tvseasonspoilers.com,-,https://tvseasonspoilers.com,https://tvseasonspoilers.com/ads.txt,True,-,-,
+https://whatson.ae,-,https://whatson.ae,https://whatson.ae/ads.txt,True,-,-,
+https://0221.com.ar,-,https://0221.com.ar,https://0221.com.ar/ads.txt,True,"programmaticians.com, GAON136, DIRECT",-,
+https://rapidsave.com,-,https://rapidsave.com,https://rapidsave.com/ads.txt,True,-,-,
+https://cdapress.com,-,https://cdapress.com,https://cdapress.com/ads.txt,True,-,-,
+https://larissanet.gr,-,https://larissanet.gr,https://larissanet.gr/ads.txt,True,-,-,
+https://webmd.com,-,https://webmd.com,https://webmd.com/ads.txt,True,-,-,
+https://anonimowe.pl,-,https://anonimowe.pl,https://anonimowe.pl/ads.txt,True,-,-,
+https://sportime.gr,-,https://sportime.gr,https://sportime.gr/ads.txt,True,-,-,
+https://i24news.tv,-,https://i24news.tv,https://i24news.tv/ads.txt,True,-,-,
+https://demotywatory.pl,-,https://demotywatory.pl,https://demotywatory.pl/ads.txt,True,-,-,
+https://semana.es,-,https://semana.es,https://semana.es/ads.txt,True,-,-,
+https://chosun.com,-,https://chosun.com,https://chosun.com/ads.txt,True,-,-,
+https://aajtak.in,-,https://aajtak.in,https://aajtak.in/ads.txt,True,-,-,
+https://espn.cl,-,https://espn.cl,https://espn.cl/ads.txt,False,-,-,
+https://dictzone.com,-,https://dictzone.com,https://dictzone.com/ads.txt,True,-,-,
+https://news12.com,-,https://news12.com,https://news12.com/ads.txt,True,-,-,
+https://travelgo.gr,-,https://travelgo.gr,https://travelgo.gr/ads.txt,True,-,-,
+https://24horas.cl,-,https://24horas.cl,https://24horas.cl/ads.txt,True,-,-,
+https://theopinion.gr,-,https://theopinion.gr,https://theopinion.gr/ads.txt,True,-,-,
+https://necenzurirano.si,-,https://necenzurirano.si,https://necenzurirano.si/ads.txt,True,-,-,
+https://kyivindependent.com,-,https://kyivindependent.com,https://kyivindependent.com/ads.txt,True,-,-,
+https://petclassifieds.com,-,https://petclassifieds.com,https://petclassifieds.com/ads.txt,True,-,-,
+https://onmanorama.com,-,https://onmanorama.com,https://onmanorama.com/ads.txt,True,-,-,
+https://daily.co.jp,-,https://daily.co.jp,https://daily.co.jp/ads.txt,True,-,-,
+https://brightside.me,-,https://brightside.me,https://brightside.me/ads.txt,True,-,-,
+https://nowiveseeneverything.club,-,https://nowiveseeneverything.club,https://nowiveseeneverything.club/ads.txt,True,-,-,
+https://dailyinterlake.com,-,https://dailyinterlake.com,https://dailyinterlake.com/ads.txt,True,-,-,
+https://kseebsolutions.guru,-,https://kseebsolutions.guru,https://kseebsolutions.guru/ads.txt,True,-,-,
+https://stylowi.pl,-,-,-,-,-,-,NA - 403
+https://biharboardsolution.com,-,https://biharboardsolution.com,https://biharboardsolution.com/ads.txt,True,-,-,
+https://psebsolutions.com,-,https://psebsolutions.com,https://psebsolutions.com/ads.txt,True,-,-,
+https://futbolecuador.com,-,https://futbolecuador.com,https://futbolecuador.com/ads.txt,True,-,-,
+https://tvn.cl,-,https://tvn.cl,https://tvn.cl/ads.txt,True,-,-,
+https://milenio.com,-,https://milenio.com,https://milenio.com/ads.txt,True,-,-,
+https://aixmi-news.gr,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='aixmi-news.gr', port=443): Max retries exceeded with url: /ads.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5ba08543a0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://faktopedia.pl,-,https://faktopedia.pl,https://faktopedia.pl/ads.txt,True,-,-,
+https://chobirich.com,-,https://chobirich.com,https://chobirich.com/ads.txt,True,-,-,
+https://aztecasinaloa.com,-,https://aztecasinaloa.com,https://aztecasinaloa.com/ads.txt,True,-,-,
+https://elfildeo.com,-,https://elfildeo.com,https://elfildeo.com/ads.txt,True,-,-,
+https://aztecaqueretaro.com,-,https://aztecaqueretaro.com,https://aztecaqueretaro.com/ads.txt,True,-,-,
+https://campaignme.com,-,https://campaignme.com,https://campaignme.com/ads.txt,True,-,-,
+https://thenationonlineng.net,-,https://thenationonlineng.net,https://thenationonlineng.net/ads.txt,True,-,-,
+https://kseebsolutions.net,-,https://kseebsolutions.net,https://kseebsolutions.net/ads.txt,True,-,-,
+https://ktbssolutions.com,-,https://ktbssolutions.com,https://ktbssolutions.com/ads.txt,True,-,-,
+https://tsboardsolutions.in,-,https://tsboardsolutions.in,https://tsboardsolutions.in/ads.txt,True,-,-,
+https://thrylos24.gr,-,https://thrylos24.gr,https://thrylos24.gr/ads.txt,True,-,-,
+https://icsesolutions.com,-,https://icsesolutions.com,https://icsesolutions.com/ads.txt,True,-,-,
+https://menshaircuts.com,-,https://menshaircuts.com,https://menshaircuts.com/ads.txt,True,-,-,
+https://needhelppayingbills.com,-,https://needhelppayingbills.com,https://needhelppayingbills.com/ads.txt,True,-,-,
+https://tvaztecabajacalifornia.com,-,https://tvaztecabajacalifornia.com,https://tvaztecabajacalifornia.com/ads.txt,True,-,-,
+https://dikastiko.gr,-,https://dikastiko.gr,https://dikastiko.gr/ads.txt,True,-,-,
+https://vtvgujarati.com,-,https://vtvgujarati.com,https://vtvgujarati.com/ads.txt,True,-,-,
+https://7kanal.co.il,-,https://7kanal.co.il,https://7kanal.co.il/ads.txt,True,-,-,
+https://piekielni.pl,-,https://piekielni.pl,https://piekielni.pl/ads.txt,True,-,-,
+https://agrinionews.gr,-,https://agrinionews.gr,https://agrinionews.gr/ads.txt,True,-,-,
+https://espn.com.do,-,https://espn.com.do,https://espn.com.do/ads.txt,True,-,-,
+https://nativeplanet.com,-,https://nativeplanet.com,https://nativeplanet.com/ads.txt,True,"programmaticians.com, PMWEB113, DIRECT","rightxchange.com, REXWEB107, DIRECT",
+https://samacheerkalvi.guide,-,https://samacheerkalvi.guide,https://samacheerkalvi.guide/ads.txt,True,-,-,
+https://gsebsolutions.in,-,https://gsebsolutions.in,https://gsebsolutions.in/ads.txt,True,-,-,
+https://kseebsolutions.in,-,-,-,-,-,-,Text content not found
+https://scoutsongs.com,-,https://scoutsongs.com,https://scoutsongs.com/ads.txt,True,-,-,
+https://geopolitico.gr,-,https://geopolitico.gr,https://geopolitico.gr/ads.txt,True,-,-,
+https://americatv.com.ar,-,https://americatv.com.ar,https://americatv.com.ar/ads.txt,True,-,-,
+https://samacheerkalvi.guru,-,https://samacheerkalvi.guru,https://samacheerkalvi.guru/ads.txt,True,-,-,
+https://cocinavital.mx,-,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='cocinavital.mx', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLCertVerificationError(1, ""[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cocinavital.mx'. (_ssl.c:1017)"")))"
