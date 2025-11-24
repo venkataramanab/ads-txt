@@ -11,12 +11,7 @@
       "domain": "truecaller.com",
       "name": "Truecaller"
     },
-    {
-            "seller_id": "92320",
-            "seller_type": "PUBLISHER",
-            "name": "Lion Studios, LLC",
-            "domain": "lionstudios.cc"
-        },
+
     {
       "seller_id": "323-b5685",
       "seller_type": "BOTH",
@@ -219,12 +214,7 @@
     "domain": "playsimple.in"
   },
 
-{
-    "seller_id": "92320",
-    "seller_type": "PUBLISHER",
-    "name": "Zapak Digital Entertainment Ltd",
-    "domain": "zapak.com"
-  },
+
  {
       "seller_id": "92330",
       "seller_type": "INTERMEDIARY",
