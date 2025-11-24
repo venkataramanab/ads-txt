@@ -38,11 +38,11 @@
       "domain": "pubnative.net"
     },
     {
-      "seller_id": "92314",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
+    "seller_id": "92314",
+    "seller_type": "PUBLISHER",
+    "name": "Playsimple",
+    "domain": "playsimple.in"
+  },
     {
       "seller_id": "92313",
       "seller_type": "INTERMEDIARY",
@@ -208,11 +208,11 @@
             "domain": "zynga.com"
         },
  {
-    "seller_id": "92319",
-    "seller_type": "PUBLISHER",
-    "name": "Playsimple",
-    "domain": "playsimple.in"
-  },
+      "seller_id": "92319",
+      "seller_type": "PUBLISHER",
+      "name": "Voodoo SAS",
+      "domain": "voodoo.io"
+    },
 
 
  {
