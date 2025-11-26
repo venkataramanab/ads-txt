@@ -172,11 +172,11 @@
       "domain": "bidmachine.io"
     },
     {
-      "seller_id": "92321",
-      "seller_type": "INTERMEDIARY",
-      "name": "Bidmachine",
-      "domain": "bidmachine.io"
-    },
+            "seller_id": "92321",
+            "seller_type": "PUBLISHER",
+            "name": "Learnings Co., Limited",
+            "domain": "learnings.ai"
+        },
     {
       "seller_id": "92322",
       "seller_type": "INTERMEDIARY",
