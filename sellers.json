@@ -24,12 +24,16 @@
       "name": "CallApp Caller ID, Call Recorder & Spam Blocker",
       "domain": "callapp.com"
     },
-{
+      "name": "Uploss",
+      "seller_type": "PUBLISHER",
+      "domain": "uploss.net"
+    },
+    {
+   "seller_id": "75002",
       "name": "Veraxen",
       "domain": "veraxen.com",
-      "seller_id": "92316",
-      "seller_type": "PUBLISHER"
-    },
+        "seller_type": "PUBLISHER"
+},
     {
       "seller_id": "92315",
       "name": "Scopely",
