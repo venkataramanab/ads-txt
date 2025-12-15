@@ -259,6 +259,13 @@
       "domain": "admixer.com"
     },
     {
+    "seller_id": "83120",
+    "name": "Adverty",
+    "domain": "adverty.com",
+    "seller_type":"PUBLISHER"
+	    
+	},
+    {
             "seller_id": "90121",
             "seller_type": "PUBLISHER",
             "name": "MobilityWare, LLC",
