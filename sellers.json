@@ -18,6 +18,12 @@
       "domain": "pocketfm.com",
       "name": "Pocket FM Corp."
     },
+	{
+            "seller_id": "92313",
+            "seller_type": "PUBLISHER",
+            "name": "Lion Studios LLC",
+            "domain": "lionstudios.cc"
+        },
 {
       "seller_id": "96412",
       "seller_type": "PUBLISHER",
