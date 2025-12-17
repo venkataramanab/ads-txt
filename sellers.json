@@ -54,12 +54,7 @@
     "name": "Playsimple",
     "domain": "playsimple.in"
   },
-    {
-      "seller_id": "92313",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    },
+  
     {
       "seller_id": "92312",
       "seller_type": "INTERMEDIARY",
@@ -277,12 +272,7 @@
       "name": "Smaato",
       "domain": "smaato.com"
     },
-	  {
-      "seller_id": "92313",
-      "seller_type": "INTERMEDIARY",
-      "name": "Verve",
-      "domain": "pubnative.net"
-    }
+
 
   ]
 }
