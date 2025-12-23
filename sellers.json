@@ -16,47 +16,47 @@
       "name": "Pocket FM Corp."
     },
 	{
-            "seller_id": "92313",
-            "seller_type": "PUBLISHER",
-            "name": "Lion Studios LLC",
-            "domain": "lionstudios.cc"
-        },
+      "seller_id": "92313",
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
+    },
 {
       "seller_id": "96412",
       "seller_type": "PUBLISHER",
       "name": "CallApp Caller ID, Call Recorder & Spam Blocker",
       "domain": "callapp.com"
     },
-   {
-            "seller_id": "92316",
-            "seller_type": "PUBLISHER",
-            "name": "Easybrain Ltd.",
-            "domain": "easybrain.com"
-        },
+ {
+      "seller_id": "92316",
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
+},
     {
    "seller_id": "75002",
       "name": "Veraxen",
       "domain": "veraxen.com",
         "seller_type": "PUBLISHER"
 },
-    {
+ {
       "seller_id": "92315",
-      "name": "Scopely",
-      "seller_type": "PUBLISHER",
-      "domain": "scopely.com"
-    },
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
+},
     {
       "seller_id": "92318",
       "seller_type": "INTERMEDIARY",
       "name": "Verve",
       "domain": "pubnative.net"
     },
-    {
-    "seller_id": "92314",
-    "seller_type": "PUBLISHER",
-    "name": "Playsimple",
-    "domain": "playsimple.in"
-  },
+   {
+      "seller_id": "92314",
+      "seller_type": "INTERMEDIARY",
+      "name": "Verve",
+      "domain": "pubnative.net"
+},
   
     {
       "seller_id": "92312",
