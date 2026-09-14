@@ -1,0 +1,216 @@
+TARGET,APP_NAME,URL,ADS.TXT,IS HTTPS?,programmaticians.com,REMARKS
+https://news18.com,-,-,-,-,-,NA - 403
+https://cosmopolitan.in,-,https://cosmopolitan.in,https://cosmopolitan.in/ads.txt,True,-,
+https://timesofindia.indiatimes.com,-,https://timesofindia.indiatimes.com,https://timesofindia.indiatimes.com/ads.txt,True,-,
+https://zoombangla.com,-,https://zoombangla.com,https://zoombangla.com/ads.txt,True," programmaticians.com, PGADG135, DIRECT",
+https://banglanews24.com,-,-,-,-,-,NA - 403
+https://Moneycontrol.com,-,https://Moneycontrol.com,https://Moneycontrol.com/ads.txt,True,"programmaticians.com, PGADG107, DIRECT; programmaticians.com, PMWEB122, DIRECT; programmaticians.com, PMWEB117, DIRECT",
+https://bdjobs.com,-,https://bdjobs.com,https://bdjobs.com/ads.txt,True,"programmaticians.com, PGADG147, DIRECT",
+https://dqindia.com,-,https://dqindia.com,https://dqindia.com/ads.txt,True,"programmaticians.com, AFICMNT101, DIRECT",
+https://pcquest.com,-,https://pcquest.com,https://pcquest.com/ads.txt,True,"programmaticians.com, AFICMNT106, DIRECT",
+https://nwnews24.com,-,-,-,-,-,NA - 403
+https://pixelwarriors.online,-,-,-,-,-,Ads.txt Not Found
+https://haryanaschemes.in,-,-,-,-,-,Ads.txt Not Found
+https://sanjeevanisamachar.com,-,https://sanjeevanisamachar.com,https://sanjeevanisamachar.com/ads.txt,True,-,
+https://chhattisgarhprimetime.com,-,https://chhattisgarhprimetime.com,https://chhattisgarhprimetime.com/ads.txt,True," programmaticians.com, PGADG175, DIRECT",
+https://ibc24.in,-,https://ibc24.in,https://ibc24.in/ads.txt,True,"programmaticians.com, PGADG107, DIRECT; programmaticians.com, PGADG254, DIRECT; programmaticians.com, PGADG113, DIRECT #programmaticians",
+https://kadwaghut.com,-,https://kadwaghut.com,https://kadwaghut.com/ads.txt,True,-,
+https://financialexpertt.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='financialexpertt.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74d750>: Failed to resolve 'financialexpertt.com' ([Errno -2] Name or service not known)""))"
+https://hpbl.co.in,-,https://hpbl.co.in,https://hpbl.co.in/ads.txt,True,-,
+https://inn24news.in,-,https://inn24news.in,https://inn24news.in/ads.txt,True," programmaticians.com, PGADG173, DIRECT;  programmaticians.com, PGADG178, DIRECT",
+https://bhartiyabasti.com,-,https://bhartiyabasti.com,https://bhartiyabasti.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",
+https://sgxnifty.org,-,https://sgxnifty.org,https://sgxnifty.org/ads.txt,True,"programmaticians.com, PGADG184, DIRECT; programmaticians.com, PMWEB154, DIRECT",
+https://cgwall.in,-,https://cgwall.in,https://cgwall.in/ads.txt,True,-,
+https://hajipurwaladj.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='hajipurwaladj.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62f6a0>: Failed to resolve 'hajipurwaladj.in' ([Errno -2] Name or service not known)""))"
+https://techportalnews.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='techportalnews.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62e920>: Failed to resolve 'techportalnews.com' ([Errno -2] Name or service not known)""))"
+https://zutiza.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='zutiza.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a90d30>: Failed to resolve 'zutiza.com' ([Errno -5] No address associated with hostname)""))"
+https://technostrikers.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='technostrikers.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a248e0>: Failed to resolve 'technostrikers.com' ([Errno -2] Name or service not known)""))"
+https://yashbharat.com,-,https://yashbharat.com,https://yashbharat.com/ads.txt,True,-,
+https://thegamermarket.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='thegamermarket.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))"
+https://usheadlines.today,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='usheadlines.today', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74e6b0>: Failed to resolve 'usheadlines.today' ([Errno -2] Name or service not known)""))"
+https://schools360.in,-,https://schools360.in,https://schools360.in/ads.txt,True,-,
+https://cyberastro.com,-,-,-,-,-,Text content not found
+https://yashbharat.co.in,-,https://yashbharat.co.in,https://yashbharat.co.in/ads.txt,True,"programmaticians.com,PGADG544,DIRECT",
+https://stockomarket.com,-,https://stockomarket.com,https://stockomarket.com/ads.txt,True,"programmaticians.com, PGADG191, DIRECT",
+https://voicendata.com,-,https://voicendata.com,https://voicendata.com/ads.txt,True,"programmaticians.com, AFICMNT102, DIRECT",
+https://ciol.com,-,https://ciol.com,https://ciol.com/ads.txt,True,"programmaticians.com, AFICMNT103, DIRECT",
+https://dqchannels.com,-,https://dqchannels.com,https://dqchannels.com/ads.txt,True,"programmaticians.com, AFICMNT104, DIRECT",
+https://dqweek.com,-,https://dqweek.com,https://dqweek.com/ads.txt,True,"programmaticians.com, AFICMNT105, DIRECT",
+https://industrialpunch.com,-,https://industrialpunch.com,https://industrialpunch.com/ads.txt,True,-,
+https://mnosports.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='mnosports.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74de40>: Failed to resolve 'mnosports.com' ([Errno -2] Name or service not known)""))"
+https://haritprawah.com,-,-,-,-,-,1 lines only
+https://abplive.com,-,https://abplive.com,https://abplive.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT #programmaticians",
+https://trendynewscenter.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='trendynewscenter.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62d2a0>: Failed to resolve 'trendynewscenter.com' ([Errno -2] Name or service not known)""))"
+https://skculzang.com,-,-,-,-,-,Ads.txt Not Found
+https://yojnaglobal.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='yojnaglobal.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a92980>: Failed to resolve 'yojnaglobal.com' ([Errno -2] Name or service not known)""))"
+https://thejobwala.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='thejobwala.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a92680>: Failed to resolve 'thejobwala.com' ([Errno -2] Name or service not known)""))"
+https://modernschool.online,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='modernschool.online', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a24cd0>: Failed to resolve 'modernschool.online' ([Errno -2] Name or service not known)""))"
+https://thekhabrilal.com,-,-,-,-,-,Ads.txt Not Found
+https://delhipublicschools.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='delhipublicschools.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a93eb0>: Failed to resolve 'delhipublicschools.in' ([Errno -2] Name or service not known)""))"
+https://delhipublicschools.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='delhipublicschools.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a24760>: Failed to resolve 'delhipublicschools.com' ([Errno -2] Name or service not known)""))"
+https://theshriramschool.co.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='theshriramschool.co.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62ec50>: Failed to resolve 'theshriramschool.co.in' ([Errno -2] Name or service not known)""))"
+https://loyolacollege.co.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='loyolacollege.co.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62fd60>: Failed to resolve 'loyolacollege.co.in' ([Errno -2] Name or service not known)""))"
+https://fantasysports4u.com,-,-,-,-,-,Ads.txt Not Found
+https://ladyshriramcollege.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='ladyshriramcollege.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74ef50>: Failed to resolve 'ladyshriramcollege.in' ([Errno -2] Name or service not known)""))"
+https://stxavierscolleges.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='stxavierscolleges.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db794a30>: Failed to resolve 'stxavierscolleges.com' ([Errno -2] Name or service not known)""))"
+https://maulanaazadmedicalcollege.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='maulanaazadmedicalcollege.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62e410>: Failed to resolve 'maulanaazadmedicalcollege.com' ([Errno -2] Name or service not known)""))"
+https://kinggeorgesmedicaluniversity.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='kinggeorgesmedicaluniversity.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62dbd0>: Failed to resolve 'kinggeorgesmedicaluniversity.com' ([Errno -2] Name or service not known)""))"
+https://daebak.tokyo,-,https://daebak.tokyo,https://daebak.tokyo/ads.txt,True,"programmaticians.com, PMVDO101, DIRECT; programmaticians.com, PMVDO101, DIRECT",
+https://kasturbamedicalcollege.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='kasturbamedicalcollege.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62fbe0>: Failed to resolve 'kasturbamedicalcollege.com' ([Errno -2] Name or service not known)""))"
+https://illustrateddailynews.com,-,https://illustrateddailynews.com,https://illustrateddailynews.com/ads.txt,True,-,
+https://automahiti24.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='automahiti24.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db795630>: Failed to resolve 'automahiti24.in' ([Errno -2] Name or service not known)""))"
+https://autojankari24.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='autojankari24.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a24e50>: Failed to resolve 'autojankari24.in' ([Errno -2] Name or service not known)""))"
+https://guargumrate.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='guargumrate.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74e470>: Failed to resolve 'guargumrate.com' ([Errno -2] Name or service not known)""))"
+https://satysanwad.com,-,https://satysanwad.com,https://satysanwad.com/ads.txt,True,"programmaticians.com, PGADG201, DIRECT",
+https://automobgk.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='automobgk.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62f5e0>: Failed to resolve 'automobgk.com' ([Errno -2] Name or service not known)""))"
+https://acmilan.com.pl,-,https://acmilan.com.pl,https://acmilan.com.pl/ads.txt,True,"programmaticians.com, PGADG200, DIRECT; programmaticians.com, PGADG200, DIRECT",
+https://motorbikeupdate.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='motorbikeupdate.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74cf70>: Failed to resolve 'motorbikeupdate.com' ([Errno -2] Name or service not known)""))"
+https://Sentinelassam.com,-,https://Sentinelassam.com,https://Sentinelassam.com/ads.txt,True,"programmaticians.com, PGADG230, DIRECT",
+https://jobscart25.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='jobscart25.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a91330>: Failed to resolve 'jobscart25.com' ([Errno -2] Name or service not known)""))"
+https://pkmstudy.com,-,https://pkmstudy.com,https://pkmstudy.com/ads.txt,True,-,
+https://dhanpedia.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='dhanpedia.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db795d50>: Failed to resolve 'dhanpedia.com' ([Errno -2] Name or service not known)""))"
+https://nenews.in,-,https://nenews.in,https://nenews.in/ads.txt,True,"programmaticians.com, PGADG231,DIRECT",
+https://financeniti.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='financeniti.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62c2e0>: Failed to resolve 'financeniti.com' ([Errno -2] Name or service not known)""))"
+https://gujtopper.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='gujtopper.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db797b50>: Failed to resolve 'gujtopper.com' ([Errno -2] Name or service not known)""))"
+https://everyletterformat.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='everyletterformat.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db62f790>: Failed to resolve 'everyletterformat.com' ([Errno -2] Name or service not known)""))"
+https://spupdate.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='spupdate.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a245e0>: Failed to resolve 'spupdate.com' ([Errno -2] Name or service not known)""))"
+https://jobkhabarie.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='jobkhabarie.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a90100>: Failed to resolve 'jobkhabarie.com' ([Errno -2] Name or service not known)""))"
+https://namidaapk.com,-,-,-,-,-,Text content not found
+https://livecnbc.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='livecnbc.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a92740>: Failed to resolve 'livecnbc.com' ([Errno -2] Name or service not known)""))"
+https://vanshbill.com,-,https://vanshbill.com,https://vanshbill.com/ads.txt,True,"programmaticians.com, PGADG229, DIRECT",
+https://easytoexam.com,-,-,-,-,-,NA - 403
+https://newsxpressindia.com,-,-,-,-,-,Ads.txt Not Found
+https://studentsidea.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='studentsidea.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77db74d300>: Failed to resolve 'studentsidea.com' ([Errno -2] Name or service not known)""))"
+https://examapna.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='examapna.com', port=443): Read timed out. (read timeout=2)"
+https://jobexamresults.com,-,-,-,-,-,NA - 410
+https://investmarg.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='investmarg.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f77db796830>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
+https://merapg.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='merapg.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f77db7966b0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))"
+https://wellnessfixer.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='wellnessfixer.com', port=443): Max retries exceeded with url: /ads.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f77db795ab0>, 'Connection to wellnessfixer.com timed out. (connect timeout=1)'))"
+https://educationstar.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='educationstar.in', port=443): Max retries exceeded with url: /ads.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f77db62eaa0>, 'Connection to educationstar.in timed out. (connect timeout=1)'))"
+https://idiva.com,-,https://idiva.com,https://idiva.com/ads.txt,True,"programmaticians.com, PGADG280, DIRECT",
+https://bicvk.com,-,-,-,-,-,4 lines only
+https://jaanlo.in,-,-,-,-,-,Text content not found
+https://Mensxp.com,-,https://Mensxp.com,https://Mensxp.com/ads.txt,True,"programmaticians.com, PGADG280, DIRECT",
+https://timesnownews.com,-,https://timesnownews.com,https://timesnownews.com/ads.txt,True,-,
+https://grandnews.in,-,https://grandnews.in,https://grandnews.in/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",
+https://bhilwarahalchal.com,-,https://bhilwarahalchal.com,https://bhilwarahalchal.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",
+https://Jagran.com,-,https://Jagran.com,https://Jagran.com/ads.txt,True,-,
+https://niveshdoze.com,-,-,-,-,-,"ConnectionError ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+https://newsable.asianetnews.com,-,https://newsable.asianetnews.com,https://newsable.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://hindi.asianetnews.com,-,https://hindi.asianetnews.com,https://hindi.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://aethersx2.net,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='aethersx2.net', port=443): Read timed out. (read timeout=2)"
+https://way2news.com,-,https://way2news.com,https://way2news.com/ads.txt,True,-,
+https://kannada.asianetnews.com,-,https://kannada.asianetnews.com,https://kannada.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://telugu.asianetnews.com,-,https://telugu.asianetnews.com,https://telugu.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://Saavn.com,-,https://Saavn.com,https://Saavn.com/ads.txt,True,-,
+https://bangla.asianetnews.com,-,https://bangla.asianetnews.com,https://bangla.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://tamil.asianetnews.com,-,https://tamil.asianetnews.com,https://tamil.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://marathi.asianetnews.com,-,https://marathi.asianetnews.com,https://marathi.asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://asianetnews.com,-,https://asianetnews.com,https://asianetnews.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com, PGADG254, DIRECT",
+https://Jagranjosh.com,-,https://Jagranjosh.com,https://Jagranjosh.com/ads.txt,True,-,
+https://etnownews.com,-,https://etnownews.com,https://etnownews.com/ads.txt,True,-,
+https://timesnowhindi.com,-,https://timesnowhindi.com,https://timesnowhindi.com/ads.txt,True,-,
+https://vishvasnews.com,-,https://vishvasnews.com,https://vishvasnews.com/ads.txt,True,-,
+https://khabarexpressnews.com,-,https://khabarexpressnews.com,https://khabarexpressnews.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",
+https://sanook.com,-,https://sanook.com,https://sanook.com/ads.txt,True,"programmaticians.com, PGADG200, DIRECT; programmaticians.com, PGADG200, DIRECT",
+https://indiatvnews.com,-,https://indiatvnews.com,https://indiatvnews.com/ads.txt,True,-,
+https://gujaratijagran.com,-,https://gujaratijagran.com,https://gujaratijagran.com/ads.txt,True,-,
+https://indiatv.in,-,https://indiatv.in,https://indiatv.in/ads.txt,True,-,
+https://thedailyjagran.com,-,https://thedailyjagran.com,https://thedailyjagran.com/ads.txt,True,-,
+https://marathijagran.com,-,https://marathijagran.com,https://marathijagran.com/ads.txt,True,-,
+https://hindi.etnownews.com,-,https://hindi.etnownews.com,https://hindi.etnownews.com/ads.txt,True,-,
+https://Herzindagi.com,-,https://Herzindagi.com,https://Herzindagi.com/ads.txt,True,-,
+https://onlymyhealth.com,-,https://onlymyhealth.com,https://onlymyhealth.com/ads.txt,True,-,
+https://punjabijagran.com,-,https://punjabijagran.com,https://punjabijagran.com/ads.txt,True,-,
+https://tv9hindi.com,-,https://tv9hindi.com,https://tv9hindi.com/ads.txt,True,-,
+https://naidunia.com,-,https://naidunia.com,https://naidunia.com/ads.txt,True,-,
+https://prabhasakshi.com,-,https://prabhasakshi.com,https://prabhasakshi.com/ads.txt,True,-,
+https://tv9kannada.com,-,https://tv9kannada.com,https://tv9kannada.com/ads.txt,True,-,
+https://news9live.com,-,https://news9live.com,https://news9live.com/ads.txt,True,-,
+https://jagrantv.com,-,-,-,-,-,Text content not found
+https://inextlive.com,-,https://inextlive.com,https://inextlive.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT",
+https://tv9telugu.com,-,https://tv9telugu.com,https://tv9telugu.com/ads.txt,True,-,
+https://tv9bangla.com,-,https://tv9bangla.com,https://tv9bangla.com/ads.txt,True,-,
+https://tv9gujarati.com,-,https://tv9gujarati.com,https://tv9gujarati.com/ads.txt,True,-,
+https://tv9marathi.com,-,https://tv9marathi.com,https://tv9marathi.com/ads.txt,True,-,
+https://usatimes247.com,-,https://usatimes247.com,https://usatimes247.com/ads.txt,True,-,
+https://outlookhindi.com,-,-,-,-,-,NA - 403
+https://dailychhattisgarh.com,-,-,-,-,-,NA - 403
+https://Amarujala.com,-,https://Amarujala.com,https://Amarujala.com/ads.txt,True,-,
+https://outlookindia.com,-,https://outlookindia.com,https://outlookindia.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT",
+https://money9live.com,-,https://money9live.com,https://money9live.com/ads.txt,True,-,
+https://tv9tamilnews.com,-,https://tv9tamilnews.com,https://tv9tamilnews.com/ads.txt,True,-,
+https://kalingatv.com,-,https://kalingatv.com,https://kalingatv.com/ads.txt,True,-,
+https://hindi.webdunia.com,-,https://hindi.webdunia.com,https://hindi.webdunia.com/ads.txt,True,-,
+https://english.webdunia.com,-,https://english.webdunia.com,https://english.webdunia.com/ads.txt,True,-,
+https://mytoolstown.com,-,https://mytoolstown.com,https://mytoolstown.com/ads.txt,True,-,
+https://tamil.webdunia.com,-,https://tamil.webdunia.com,https://tamil.webdunia.com/ads.txt,True,-,
+https://marathi.webdunia.com,-,https://marathi.webdunia.com,https://marathi.webdunia.com/ads.txt,True,-,
+https://news24online.com,-,https://news24online.com,https://news24online.com/ads.txt,True,-,
+https://malayalam.webdunia.com,-,-,-,-,-,Empty response
+https://telugu.webdunia.com,-,https://telugu.webdunia.com,https://telugu.webdunia.com/ads.txt,True,-,
+https://e24bollywood.com,-,https://e24bollywood.com,https://e24bollywood.com/ads.txt,True,-,
+https://kannada.webdunia.com,-,https://kannada.webdunia.com,https://kannada.webdunia.com/ads.txt,True,-,
+https://hindi.news24online.com,-,https://hindi.news24online.com,https://hindi.news24online.com/ads.txt,True,-,
+https://ytrishi.in,-,-,-,-,-,1 lines only
+https://navbharattimes.indiatimes.com,-,https://navbharattimes.indiatimes.com,https://navbharattimes.indiatimes.com/ads.txt,True,-,
+https://economictimes.indiatimes.com,-,https://economictimes.indiatimes.com,https://economictimes.indiatimes.com/ads.txt,True,-,
+https://assam.news18.com,-,-,-,-,-,NA - 403
+https://bengali.news18.com,-,-,-,-,-,NA - 403
+https://news24sports.in,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='news24sports.in', port=443): Max retries exceeded with url: /ads.txt (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f77c8a93ac0>: Failed to resolve 'news24sports.in' ([Errno -3] Temporary failure in name resolution)""))"
+https://news18marathi.com,-,https://news18marathi.com,https://news18marathi.com/ads.txt,True,"programmaticians.com, PGADG106, DIRECT; programmaticians.com, PMWEB122, DIRECT",
+https://nidarchhattisgarh.com,-,https://nidarchhattisgarh.com,https://nidarchhattisgarh.com/ads.txt,True,-,
+https://indiatimes.com,-,https://indiatimes.com,https://indiatimes.com/ads.txt,True,-,
+https://malayalam.news18.com,-,-,-,-,-,NA - 403
+https://lokmat.news18.com,-,-,-,-,-,NA - 403
+https://hindi.news18.com,-,-,-,-,-,NA - 403
+https://gujarati.webdunia.com,-,https://gujarati.webdunia.com,https://gujarati.webdunia.com/ads.txt,True,-,
+https://kannada.news18.com,-,-,-,-,-,NA - 403
+https://khaskhabar.com,-,https://khaskhabar.com,https://khaskhabar.com/ads.txt,True,"programmaticians.com, PGADG254, DIRECT",
+https://tamil.news18.com,-,-,-,-,-,NA - 403
+https://gujarati.news18.com,-,https://gujarati.news18.com,https://gujarati.news18.com/ads.txt,True,"programmaticians.com, PGADG106, DIRECT; programmaticians.com, PMWEB122, DIRECT",
+https://telugu.news18.com,-,-,-,-,-,NA - 403
+https://punjab.news18.com,-,-,-,-,-,NA - 403
+https://urdu.news18.com,-,-,-,-,-,NA - 403
+https://odia.news18.com,-,-,-,-,-,NA - 403
+https://navbharatlive.com,-,https://navbharatlive.com,https://navbharatlive.com/ads.txt,True,"programmaticians.com, PGADG506, DIRECT #programmaticians; programmaticians.com, PGADG254, DIRECT",
+https://dailythanthi.com,-,https://dailythanthi.com,https://dailythanthi.com/ads.txt,True,-,
+https://aproudchristian.com,-,-,-,-,-,Text content not found
+https://Maalaimalar.com,-,https://Maalaimalar.com,https://Maalaimalar.com/ads.txt,True,-,
+https://anandabazar.com,-,-,-,-,-,NA - 403
+https://DTnext.in,-,https://DTnext.in,https://DTnext.in/ads.txt,True,-,
+https://nakkheeran.in,-,https://nakkheeran.in,https://nakkheeran.in/ads.txt,True,"programmaticians.com, PGADG283, DIRECT #programmaticians",
+https://ThanthiTV.com,-,https://ThanthiTV.com,https://ThanthiTV.com/ads.txt,True,-,
+https://hosakannada.com,-,https://hosakannada.com,https://hosakannada.com/ads.txt,True,-,
+https://fastcars1.com,-,https://fastcars1.com,https://fastcars1.com/ads.txt,True,-,
+https://fimela.com,-,https://fimela.com,https://fimela.com/ads.txt,True,"programmaticians.com, PGADG576, DIRECT #programmaticians",
+https://Cricbuzz.com,-,https://Cricbuzz.com,https://Cricbuzz.com/ads.txt,True,"programmaticians.com,PGADG554,DIRECT",
+https://navarashtra.com,-,https://navarashtra.com,https://navarashtra.com/ads.txt,True,"programmaticians.com, PGADG518, DIRECT #programmaticians",
+https://sportshackster.com,-,https://sportshackster.com,https://sportshackster.com/ads.txt,True,-,
+https://moonball.tv,-,https://moonball.tv,https://moonball.tv/ads.txt,True,-,
+https://Oneindia.com,-,https://Oneindia.com,https://Oneindia.com/ads.txt,True,"programmaticians.com, PGADG532, DIRECT; programmaticians.com, PMWEB106, DIRECT; programmaticians.com,PGADG544,DIRECT",
+https://freegiftzone.in,-,https://freegiftzone.in,https://freegiftzone.in/ads.txt,True,-,
+https://multimericamedia.com,-,https://multimericamedia.com,https://multimericamedia.com/ads.txt,True,-,
+https://Kompas.com,-,https://Kompas.com,https://Kompas.com/ads.txt,True,"programmaticians.com,PGADG537,DIRECT #programmaticians",
+https://vccircle.com,-,https://vccircle.com,https://vccircle.com/ads.txt,True,"programmaticians.com, PGADG502, DIRECT #programmaticians; programmaticians.com, PGADG503, DIRECT #programmaticians",
+https://mediapulse.ca,-,https://mediapulse.ca,https://mediapulse.ca/ads.txt,True,"programmaticians.com, PGADG268, DIRECT",
+https://tudamun.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='tudamun.com', port=443): Max retries exceeded with url: /ads.txt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))"
+https://pursuituptv.com,-,https://pursuituptv.com,https://pursuituptv.com/ads.txt,True,"programmaticians.com, PGADG264, DIRECT",
+https://sportxads.com,-,https://sportxads.com,https://sportxads.com/ads.txt,True,"programmaticians.com, PGADG268, DIRECT",
+https://firstpost.com,-,-,-,-,-,NA - 403
+https://Indiatoday.com,-,-,-,-,-,"ConnectionError HTTPSConnectionPool(host='indiatoday.com', port=443): Max retries exceeded with url: /ads.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f77db797af0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+https://indiandefensenews.in,-,https://indiandefensenews.in,https://indiandefensenews.in/ads.txt,True,-,
+https://andhrajyothy.com,-,https://andhrajyothy.com,https://andhrajyothy.com/ads.txt,True,"programmaticians.com, PGADG552, DIRECT #programmaticians",
+https://Hindustantimes.com,-,https://Hindustantimes.com,https://Hindustantimes.com/ads.txt,True,-,
+https://bingowebrabbit.com,-,https://bingowebrabbit.com,https://bingowebrabbit.com/ads.txt,True,-,
+https://games4ndchill.com,-,https://games4ndchill.com,https://games4ndchill.com/ads.txt,True,"programmaticians.com, PGADG521, DIRECT; programmaticians.com,PGADG544,DIRECT",
+https://Sofast.Tv,-,-,-,-,-,Ads.txt Not Found
+https://Learngrov.com,-,https://Learngrov.com,https://Learngrov.com/ads.txt,True,-,
+https://Beritasatu.com,-,https://Beritasatu.com,https://Beritasatu.com/ads.txt,True,"programmaticians.com, pgadg534, DIRECT #programmaticians",
+https://Educdigi.com,-,https://Educdigi.com,https://Educdigi.com/ads.txt,True,-,
+https://Skillproedu.com,-,https://Skillproedu.com,https://Skillproedu.com/ads.txt,True,-,
+https://Edugurupro.com,-,https://Edugurupro.com,https://Edugurupro.com/ads.txt,True,-,
+https://Digitalbloom.it,-,-,-,-,-,Ads.txt Not Found
+https://Glow-edu.com,-,https://Glow-edu.com,https://Glow-edu.com/ads.txt,True,-,
+https://Shiniedu.com,-,https://Shiniedu.com,https://Shiniedu.com/ads.txt,True,-,
+https://ravengami.it,-,https://ravengami.it,https://ravengami.it/ads.txt,True,"programmaticians.com, PGADG547, DIRECT #programmaticians",
